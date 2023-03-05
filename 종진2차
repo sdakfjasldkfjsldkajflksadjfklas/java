@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+
+    우루과이, 아르헨티나, 미국, 유고슬라비아, 칠레, 브라질, 프랑스, 루마니아, 파라과이, 페루,
+    벨기에, 볼리비아, 멕시코, 이탈리아,체코슬로바키아, 독일, 오스트리아, 스페인, 헝가리, 스위스,
+    스웨덴, 네덜란드, 이집트
+    <table border="1">
+
+        1938년 프랑스 월드컵
+<tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+<tr><th>우승</th><th>이탈리아</th><th>국기</th><th>세계 최초 2회연속 우승</th></tr>
+<tr><th>준우승</th><th>헝가리</th><th>국기</th><th>최초 준우승</th></tr>
+<tr><th>3위</th><th>브라질</th><th>국기</th><th>최초 3위</th></tr>
+<tr><th>4위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+<tr><th>5위</th><th>체코슬로바키아</th><th>국기</th><th>비고</th></tr>
+<tr><th>6위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+<tr><th>7위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+<tr><th>8위</th><th>쿠바</th><th>국기</th><th> 본선 첫 진출</th></tr>
+<tr><th>9위</th><th>루마니아</th><th>국기</th><th>비고</th></tr>
+<tr><th>10위</th><th>독일</th><th>국기</th><th>비고</th></tr>
+<tr><th>11위</th><th>폴란드</th><th>국기</th><th>본선 첫 진출</th></tr>
+<tr><th>12위</th><th>노르웨이</th><th>국기</th><th>본선 첫 진출</th></tr>
+<tr><th>13위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+<tr><th>14위</th><th>네덜란드</th><th>국기</th><th>비고</th></tr>
+<tr><th>15위</th><th>네덜란드령 동인도</th><th>국기</th><th>본선 첫 진출</th></tr>
+<tr><th>16위</th><th>오스트리아</th><th>국기</th><th>비고</th></tr>
+
+</table>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<table border="1">
+
+    1950년 브라질 월드컵
+
+<tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+<tr><th>우승</th><th>우루과이</th><th>국기</th><th>2회우승</th></tr>
+<tr><th>준우승</th><th>브라질</th><th>국기</th><th>최초 준우승</th></tr>
+<tr><th>3위</th><th>스웨덴</th><th>국기</th><th>최초 3위</th></tr>
+<tr><th>4위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+<tr><th>5위</th><th>유고슬라비아</th><th>국기</th><th>비고</th></tr>
+<tr><th>6위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+<tr><th>7위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+<tr><th>8위</th><th>잉글랜드</th><th>국기</th><th>본선 첫 진출</th></tr>
+<tr><th>9위</th><th>칠레</th><th>국기</th><th>본선 첫 진출</th></tr>
+<tr><th>10위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+<tr><th>11위</th><th>파라과이</th><th>국기</th><th>비고</th></tr>
+<tr><th>12위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+<tr><th>13위</th><th>볼리비아</th><th>국기</th><th>본선 첫 진출</th></tr>
+
+
+
+
+
+
+
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <table border="1">
+
+        1954년 스위스 월드컵
+    
+    <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+    <tr><th>우승</th><th>서독</th><th>국기</th><th>최초 우승</th></tr>
+    <tr><th>준우승</th><th>헝가리</th><th>국기</th><th>세계 최초 2회 준우승</th></tr>
+    <tr><th>3위</th><th>오스트리아</th><th>국기</th><th>최초 3위</th></tr>
+    <tr><th>4위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+    <tr><th>5위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+    <tr><th>6위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+    <tr><th>7위</th><th>유고슬라비아</th><th>국기</th><th>비고</th></tr>
+    <tr><th>8위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+    <tr><th>9위</th><th>터키</th><th>국기</th><th>본선 첫 진출</th></tr>
+    <tr><th>10위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+    <tr><th>11위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+    <tr><th>12위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+    <tr><th>13위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+    <tr><th>14위</th><th>체코슬로바키아</th><th>국기</th><th>비고</th></tr>
+    <tr><th>15위</th><th>스코틀랜드</th><th>국기</th><th>본선 첫 진출</th></tr>
+    <tr><th>16위</th><th>대한민국</th><th>국기</th><th>본선 첫 진출</th></tr>
+    
+    
+    
+    
+    
+    
+    
+        </table>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <table border="1">
+
+            1958년 스웨덴 월드컵
+        
+        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+        <tr><th>우승</th><th>브라질</th><th>국기</th><th>최초 우승</th></tr>
+        <tr><th>준우승</th><th>스웨덴</th><th>국기</th><th>최초 준우승</th></tr>
+        <tr><th>3위</th><th>프랑스</th><th>국기</th><th>최초 3위</th></tr>
+        <tr><th>4위</th><th>서독</th><th>국기</th><th>비고</th></tr>
+        <tr><th>5위</th><th>유고슬라비아</th><th>국기</th><th>비고</th></tr>
+        <tr><th>6위</th><th>웨일스</th><th>국기</th><th>본선 첫 진출</th></tr>
+        <tr><th>7위</th><th>소련</th><th>국기</th><th>본선 첫 진출</th></tr>
+        <tr><th>8위</th><th>북아일랜드</th><th>국기</th><th>본선 첫 진출</th></tr>
+        <tr><th>9위</th><th>체코슬로바키아</th><th>국기</th><th>비고</th></tr>
+        <tr><th>10위</th><th>헝가리</th><th>국기</th><th>비고</th></tr>
+        <tr><th>11위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+        <tr><th>12위</th><th>파라과이</th><th>국기</th><th>비고</th></tr>
+        <tr><th>13위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+        <tr><th>14위</th><th>스코틀랜드</th><th>국기</th><th>비고</th></tr>
+        <tr><th>15위</th><th>오스트리아</th><th>국기</th><th>비고</th></tr>
+        <tr><th>16위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+        
+        
+         </table>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <table border="1">
+
+                1962년 칠레 월드컵
+            
+            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+            <tr><th>우승</th><th>브라질</th><th>국기</th><th>2회 우승</th></tr>
+            <tr><th>준우승</th><th>체코슬로바키아</th><th>국기</th><th>2회 준우승</th></tr>
+            <tr><th>3위</th><th>칠레</th><th>국기</th><th>최초 3위</th></tr>
+            <tr><th>4위</th><th>유고슬라비아</th><th>국기</th><th>비고</th></tr>
+            <tr><th>5위</th><th>헝가리</th><th>국기</th><th>비고</th></tr>
+            <tr><th>6위</th><th>소련</th><th>국기</th><th>비고</th></tr>
+            <tr><th>7위</th><th>서독</th><th>국기</th><th>비고</th></tr>
+            <tr><th>8위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+            <tr><th>9위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+            <tr><th>10위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+            <tr><th>11위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+            <tr><th>12위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+            <tr><th>13위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+            <tr><th>14위</th><th>콜롬비아</th><th>국기</th><th>본선 첫 진출</th></tr>
+            <tr><th>15위</th><th>불가리아</th><th>국기</th><th>본선 첫 진출</th></tr>
+            <tr><th>16위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+            
+            
+             </table>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                <table border="1">
+
+                    1966년 잉글랜드 월드컵
+                
+                <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                <tr><th>우승</th><th>잉글랜드</th><th>국기</th><th>최초 우승</th></tr>
+                <tr><th>준우승</th><th>서독</th><th>국기</th><th>최초 준우승</th></tr>
+                <tr><th>3위</th><th>포르투갈</th><th>국기</th><th>최초 3위</th></tr>
+                <tr><th>4위</th><th>소련</th><th>국기</th><th>비고</th></tr>
+                <tr><th>5위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                <tr><th>6위</th><th>헝가리</th><th>국기</th><th>비고</th></tr>
+                <tr><th>7위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                <tr><th>8위</th><th>북한</th><th>국기</th><th>본선 첫 진출</th></tr>
+                <tr><th>9위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+                <tr><th>10위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                <tr><th>11위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                <tr><th>12위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                <tr><th>13위</th><th>칠레</th><th>국기</th><th>비고</th></tr>
+                <tr><th>14위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+                <tr><th>15위</th><th>불가리아</th><th>국기</th><th>비고</th></tr>
+                <tr><th>16위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+                
+                
+                 </table>
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                    <table border="1">
+
+                        1970년 멕시코 월드컵
+                    
+                    <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>우승</th><th>브라질</th><th>국기</th><th>세계 최초 3회 우승</th></tr>
+                    <tr><th>준우승</th><th>이탈리아</th><th>국기</th><th>최초 준우승</th></tr>
+                    <tr><th>3위</th><th>서독</th><th>국기</th><th>최초 3위</th></tr>
+                    <tr><th>4위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>5위</th><th>소련</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>6위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>7위</th><th>페루</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>8위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>9위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>10위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>11위</th><th>루마니아</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>12위</th><th>이스라엘</th><th>국기</th><th>본선 첫 진출</th></tr>
+                    <tr><th>13위</th><th>불가리아</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>14위</th><th>모로코</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>15위</th><th>체코슬로바키아</th><th>국기</th><th>비고</th></tr>
+                    <tr><th>16위</th><th>엘살바도르</th><th>국기</th><th>본선 첫 진출</th></tr>
+                    
+                    
+                     </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                        <table border="1">
+
+                            1974년 서독 월드컵
+                        
+                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>우승</th><th>서독</th><th>국기</th><th>2회 우승</th></tr>
+                        <tr><th>준우승</th><th>네덜란드</th><th>국기</th><th>최초 준우승</th></tr>
+                        <tr><th>3위</th><th>폴란드</th><th>국기</th><th>최초 3위</th></tr>
+                        <tr><th>4위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>5위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>6위</th><th>동독</th><th>국기</th><th>본선 첫 진출</th></tr>
+                        <tr><th>7위</th><th>유고슬라비아</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>8위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>9위</th><th>스코틀랜드</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>10위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>11위</th><th>칠레</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>12위</th><th>불가리아</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>13위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                        <tr><th>14위</th><th>호주</th><th>국기</th><th>본선 첫 진출</th></tr>
+                        <tr><th>15위</th><th>아이티</th><th>국기</th><th>본선 첫 진출</th></tr>
+                        <tr><th>16위</th><th>자이르</th><th>국기</th><th>본선 첫 진출</th></tr>
+                        
+                        
+                         </table>
+                            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                            <table border="1">
+
+                                1978년 아르헨티나 월드컵
+                            
+                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>우승</th><th>아르헨티나</th><th>국기</th><th>최초 우승</th></tr>
+                            <tr><th>준우승</th><th>네덜란드</th><th>국기</th><th>세계 최초 2회연속 준우승</th></tr>
+                            <tr><th>3위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>4위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>5위</th><th>폴란드</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>6위</th><th>서독</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>7위</th><th>오스트리아</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>8위</th><th>페루</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>9위</th><th>튀니지</th><th>국기</th><th>본선 첫 진출</th></tr>
+                            <tr><th>10위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>11위</th><th>스코틀랜드</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>12위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>13위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>14위</th><th>이란</th><th>국기</th><th>본선 첫 진출</th></tr>
+                            <tr><th>15위</th><th>헝가리</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>16위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                            
+                            
+                             </table>
+                                <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                <table border="1">
+
+                                1982년 스페인 월드컵
+                            
+                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>우승</th><th>이탈리아</th><th>국기</th><th>3번째 우승</th></tr>
+                            <tr><th>준우승</th><th>서독</th><th>국기</th><th>2번째 준우승</th></tr>
+                            <tr><th>3위</th><th>폴란드</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>4위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>5위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>6위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>7위</th><th>소련</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>8위</th><th>오스트리아</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>9위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>10위</th><th>북아일랜드</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>11위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>12위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>13위</th><th>알제리</th><th>국기</th><th>본선 첫 진출</th></tr>
+                            <tr><th>14위</th><th>헝가리</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>15위</th><th>스코틀랜드</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>16위</th><th>유고슬라비아</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>17위</th><th>카메룬</th><th>국기</th><th>본선 첫 진출</th></tr>
+                            <tr><th>18위</th><th>온두라스</th><th>국기</th><th>본선 첫 진출</th></tr>
+                            <tr><th>19위</th><th>체코슬로바키아</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>20위</th><th>페루</th><th>국기</th><th>조별리그</th></tr>
+                            <tr><th>21위</th><th>쿠웨이트</th><th>국기</th><th>본선 첫 진출</th></tr>
+                            <tr><th>22위</th><th>칠레</th><th>국기</th><th>비고</th></tr>
+                            <tr><th>23위</th><th>뉴질랜드</th><th>국기</th><th>본선 첫 진출</th></tr>
+                            <tr><th>24위</th><th>엘살바도르</th><th>국기</th><th>비고</th></tr>
+                            
+                            
+                             </table>
+                                <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                <table border="1">
+
+                                    1986년 멕시코 월드컵
+                                
+                                <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>우승</th><th>아르헨티나</th><th>국기</th><th>2번째 우승</th></tr>
+                                <tr><th>준우승</th><th>서독</th><th>국기</th><th>세계 최초 3번째 준우승</th></tr>
+                                <tr><th>3위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>4위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>5위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>6위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>7위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>8위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>9위</th><th>덴마크</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                <tr><th>10위</th><th>소련</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>11위</th><th>모로코</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                <tr><th>12위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>13위</th><th>파라과이</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>14위</th><th>폴란드</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>15위</th><th>불가리아</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>16위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>17위</th><th>포르투갈</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>18위</th><th>헝가리</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>19위</th><th>스코틀랜드</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>20위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>21위</th><th>북아일랜드</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>22위</th><th>알제리</th><th>국기</th><th>비고</th></tr>
+                                <tr><th>23위</th><th>이라크</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                <tr><th>24위</th><th>캐나다</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                
+                                
+                                 </table>
+                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                    <table border="1">
+
+                                        1990년 이탈리아 월드컵
+                                    
+                                    <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>우승</th><th>서독</th><th>국기</th><th>3번째 우승</th></tr>
+                                    <tr><th>준우승</th><th>아르헨티나</th><th>국기</th><th>2번째 준우승</th></tr>
+                                    <tr><th>3위</th><th>이탈리아</th><th>국기</th><th>최초 3위</th></tr>
+                                    <tr><th>4위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>5위</th><th>유고슬라비아</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>6위</th><th>체코슬로바키아</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>7위</th><th>카메룬</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>8위</th><th>아일랜드</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>9위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>10위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>11위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>12위</th><th>루마니아</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>13위</th><th>코스타리카</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                    <tr><th>14위</th><th>콜롬비아</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>15위</th><th>네덜란드</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>16위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>17위</th><th>소련</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>18위</th><th>오스트리아</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>19위</th><th>스코틀랜드</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>20위</th><th>이집트</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>21위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>22위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>23위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+                                    <tr><th>24위</th><th>아랍에미리트</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                    
+                                    
+                                     </table>
+                                        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                        <table border="1">
+
+                                            1994년 미국 월드컵
+                                        
+                                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>우승</th><th>브라질</th><th>국기</th><th>세계 최초 4번째 우승</th></tr>
+                                        <tr><th>준우승</th><th>이탈리아</th><th>국기</th><th>2번째 준우승</th></tr>
+                                        <tr><th>3위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>4위</th><th>불가리아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>5위</th><th>독일</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>6위</th><th>루마니아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>7위</th><th>네덜란드</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>8위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>9위</th><th>나이지리아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>10위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>11위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>12위</th><th>사우디아라비아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>13위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>14위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>15위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>16위</th><th>아일랜드</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>17위</th><th>노르웨이</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                        <tr><th>18위</th><th>러시아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>19위</th><th>콜롬비아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>20위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>21위</th><th>볼리비아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>22위</th><th>카메룬</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>23위</th><th>모로코</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>24위</th><th>그리스</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                        
+                                        
+                                         </table>
+                                            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                            
+                                        <table border="1">
+
+                                            1998년 프랑스 월드컵
+                                        
+                                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>우승</th><th>프랑스</th><th>국기</th><th>최초 우승</th></tr>
+                                        <tr><th>준우승</th><th>브라질</th><th>국기</th><th>2번째 준우승</th></tr>
+                                        <tr><th>3위</th><th>크로아티아</th><th>국기</th><th>본선 첫 진출,최초3위</th></tr>
+                                        <tr><th>4위</th><th>네덜란드</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>5위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>6위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>7위</th><th>독일</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>8위</th><th>덴마크</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>9위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>10위</th><th>유고슬라비아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>11위</th><th>루마니아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>12위</th><th>나이지리아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>13위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>14위</th><th>파라과이</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>15위</th><th>노르웨이</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>16위</th><th>칠레</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>17위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>18위</th><th>모로코</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>19위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>20위</th><th>이란</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>21위</th><th>콜롬비아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>22위</th><th>자메이카</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                        <tr><th>23위</th><th>남아프리카공화국</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                        <tr><th>24위</th><th>오스트리아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>25위</th><th>카메룬</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>26위</th><th>튀니지</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>27위</th><th>스코틀랜드</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>28위</th><th>사우디아라비아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>29위</th><th>불가리아</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>30위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>31위</th><th>일본</th><th>국기</th><th>비고</th></tr>
+                                        <tr><th>32위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+                                        
+                                        
+                                        
+                                         </table>
+                                            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                            <table border="1">
+
+                                                2002년 한일 월드컵
+                                            
+                                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>우승</th><th>브라질</th><th>국기</th><th>세계 최초 5번째 우승</th></tr>
+                                            <tr><th>준우승</th><th>독일</th><th>국기</th><th>세계 최초 4번째 준우승</th></tr>
+                                            <tr><th>3위</th><th>터키</th><th>국기</th><th>최초 3위</th></tr>
+                                            <tr><th>4위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>5위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>6위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>7위</th><th>세네갈</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>8위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>9위</th><th>일본</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>10위</th><th>덴마크</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>11위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>12위</th><th>아일랜드</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>13위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>14위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>15위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>16위</th><th>파라과이</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>17위</th><th>남아프리카공화국</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>18위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>19위</th><th>코스타리카</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>20위</th><th>카메룬</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>21위</th><th>포르투갈</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>22위</th><th>러시아</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>23위</th><th>크로아티아</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>24위</th><th>에콰도르</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                            <tr><th>25위</th><th>폴란드</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>26위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>27위</th><th>나이지리아</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>28위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>29위</th><th>튀니지</th><th>국기</th><th>비고</th></tr>
+                                            <tr><th>30위</th><th>슬로베니아</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                            <tr><th>31위</th><th>중국</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                            <tr><th>32위</th><th>사우디아라비아</th><th>국기</th><th>비고</th></tr>
+                                            
+                                            
+                                            
+                                             </table>
+                                                <br><br><br><br><br><br><br><br><br><br><br>
+                                                <table border="1">
+
+                                                    2006년 독일 월드컵
+                                                
+                                                <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>우승</th><th>이탈리아</th><th>국기</th><th>4번째 우승</th></tr>
+                                                <tr><th>준우승</th><th>프랑스</th><th>국기</th><th>1번째 준우승</th></tr>
+                                                <tr><th>3위</th><th>독일</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>4위</th><th>포르투갈</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>5위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>6위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>7위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>8위</th><th>우크라이나</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                <tr><th>9위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>10위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>11위</th><th>네덜란드</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>12위</th><th>에콰도르</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>13위</th><th>가나</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                <tr><th>14위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>15위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>16위</th><th>호주</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>17위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>18위</th><th>파라과이</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>19위</th><th>코트디부아르</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                <tr><th>20위</th><th>체코</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>21위</th><th>폴란드</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>22위</th><th>크로아티아</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>23위</th><th>앙골라</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                <tr><th>24위</th><th>튀니지</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>25위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>26위</th><th>이란</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>27위</th><th>트리니다드 토바고</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                <tr><th>28위</th><th>사우디아라비아</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>29위</th><th>일본</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>30위</th><th>토고</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                <tr><th>31위</th><th>코스타리카</th><th>국기</th><th>비고</th></tr>
+                                                <tr><th>32위</th><th>세르비아 몬테네그로</th><th>국기</th><th>유고슬라비아 계승</th></tr>
+                                                
+                                                
+                                                
+                                                 </table>
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                    <table border="1">
+
+                                                        2010년 남아프리카 공화국 월드컵
+                                                    
+                                                    <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>우승</th><th>스페인</th><th>국기</th><th>최초 우승</th></tr>
+                                                    <tr><th>준우승</th><th>네덜란드</th><th>국기</th><th>3번째 준우승</th></tr>
+                                                    <tr><th>3위</th><th>독일</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>4위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>5위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>6위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>7위</th><th>가나</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>8위</th><th>파라과이</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>9위</th><th>일본</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>10위</th><th>칠레</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>11위</th><th>포르투갈</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>12위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>13위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>14위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>15위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>16위</th><th>슬로바키아</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                    <tr><th>17위</th><th>코트디부아르</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>18위</th><th>슬로베니아</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>19위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>20위</th><th>남아프리카 공화국</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>21위</th><th>호주</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>22위</th><th>뉴질랜드</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>23위</th><th>세르비아</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>24위</th><th>덴마크</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>25위</th><th>그리스</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>26위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>27위</th><th>나이지리아</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>28위</th><th>알제리</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>29위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>30위</th><th>온두라스</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>31위</th><th>카메룬</th><th>국기</th><th>비고</th></tr>
+                                                    <tr><th>32위</th><th>북한</th><th>국기</th><th>비고</th></tr>
+                                                    
+                                                    
+                                                    
+                                                     </table>
+                                                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                    
+                                                        <table border="1">
+
+                                                            2014년 브라질 월드컵
+                                                        
+                                                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>우승</th><th>독일</th><th>국기</th><th>4번째 우승</th></tr>
+                                                        <tr><th>준우승</th><th>아르헨티나</th><th>국기</th><th>3번째 준우승</th></tr>
+                                                        <tr><th>3위</th><th>네덜란드</th><th>국기</th><th>최초 3위</th></tr>
+                                                        <tr><th>4위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>5위</th><th>콜롬비아</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>6위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>7위</th><th>프랑스</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>8위</th><th>코스타리카</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>9위</th><th>칠레</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>10위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>11위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>12위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>13위</th><th>그리스</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>14위</th><th>알제리</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>15위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>16위</th><th>나이지리아</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>17위</th><th>에콰도르</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>18위</th><th>포르투갈</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>19위</th><th>크로아티아</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>20위</th><th>보스니아 헤르체고비나</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                        <tr><th>21위</th><th>코트디부아르</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>22위</th><th>이탈리아</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>23위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>24위</th><th>러시아</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>25위</th><th>가나</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>26위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>27위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>28위</th><th>이란</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>29위</th><th>일본</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>30위</th><th>호주</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>31위</th><th>온두라스</th><th>국기</th><th>비고</th></tr>
+                                                        <tr><th>32위</th><th>카메룬</th><th>국기</th><th>비고</th></tr>
+                                                        
+                                                        
+                                                        
+                                                         </table>
+                                                            <br><br><br><br><br><br><br><br><br><br><br><br>
+                                            
+
+                                                            <table border="1">
+
+                                                                2018년 러시아 월드컵
+                                                            
+                                                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>우승</th><th>프랑스</th><th>국기</th><th>2번째 우승</th></tr>
+                                                            <tr><th>준우승</th><th>크로아티아</th><th>국기</th><th>최초 준우승</th></tr>
+                                                            <tr><th>3위</th><th>벨기에</th><th>국기</th><th>최초 3위</th></tr>
+                                                            <tr><th>4위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>5위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>6위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>7위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>8위</th><th>러시아</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>9위</th><th>콜롬비아</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>10위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>11위</th><th>덴마크</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>12위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>13위</th><th>포르투갈</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>14위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>15위</th><th>일본</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>16위</th><th>아르헨티나</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>17위</th><th>세네갈</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>18위</th><th>이란</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>19위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>20위</th><th>페루</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>21위</th><th>나이지리아</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>22위</th><th>독일</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>23위</th><th>세르비아</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>24위</th><th>튀니지</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>25위</th><th>폴란드</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>26위</th><th>사우디 아라비아</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>27위</th><th>모로코</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>28위</th><th>아이슬란드</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>29위</th><th>코스타리카</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>30위</th><th>호주</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>31위</th><th>이집트</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>32위</th><th>파나마</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                            
+                                                            
+                                                            
+                                                             </table>
+                                                                
+                                                             <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                                             <table border="1">
+
+                                                                2022년 카타르 월드컵
+                                                            
+                                                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>우승</th><th>아르헨티나</th><th>국기</th><th> 우승</th></tr>
+                                                            <tr><th>준우승</th><th>프랑스</th><th>국기</th><th>2번째 준우승</th></tr>
+                                                            <tr><th>3위</th><th>크로아티아</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>4위</th><th>모로코</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>5위</th><th>네덜란드</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>6위</th><th>잉글랜드</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>7위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>8위</th><th>포르투갈</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>9위</th><th>일본</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>10위</th><th>세네갈</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>11위</th><th>호주</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>12위</th><th>스위스</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>13위</th><th>스페인</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>14위</th><th>미국</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>15위</th><th>폴란드</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>16위</th><th>대한민국</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>17위</th><th>독일</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>18위</th><th>에콰도르</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>19위</th><th>카메룬</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>20위</th><th>우루과이</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>21위</th><th>튀니지</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>22위</th><th>멕시코</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>23위</th><th>벨기에</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>24위</th><th>가나</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>25위</th><th>사우디아라비아</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>26위</th><th>이란</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>27위</th><th>코스타리카</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>28위</th><th>덴마크</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>29위</th><th>세르비아</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>30위</th><th>웨일스</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>31위</th><th>캐나다</th><th>국기</th><th>비고</th></tr>
+                                                            <tr><th>32위</th><th>카타르</th><th>국기</th><th>본선 첫 진출</th></tr>
+                                                            
+                                                            
+                                                            
+                                                             </table>
+                                                                <br><br><br><br><br><br><br><br><br><br><br><br>
+                                            </body>
+</html>

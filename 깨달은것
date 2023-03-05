@@ -1,0 +1,24 @@
+<form:option value="d1">one</form:option>
+
+여기서 
+<form:option value="d1"/> 이렇게 하면 안된다.
+왜냐하면 /이거 자체가 그냥 닫아버린다는 뜻인데,
+<form:option value="d1"/>하면 뒤에 one이 들어올 자리가 없다.
+그래서 이럴때는 one 넣고 저걸로 닫아줘야 한다.
+
+
+단,
+	<form:checkbox path="s5" value="d1"/>one 는
+  
+  checkbox와 one이 완전 별개이므로 닫아도 된다. 이미 value값은 닫기 전에 줬다.
+  
+  
+  @EnableWebMvc 어노테이션을 사용하면
+
+Spring Framework에서
+
+여러 Config 값을 알아서 세팅해준다.
+
+이런 편리함 때문에 @EnableWebMvc 어노테이션을 사용한다.
+
+

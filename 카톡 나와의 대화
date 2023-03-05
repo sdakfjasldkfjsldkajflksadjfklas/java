@@ -1,0 +1,3642 @@
+2022년 11월 20일 일요일
+[김종진] [오전 12:18] 00시 15분
+[김종진] [오전 8:07] 08시 20분
+[김종진] [오후 10:03] 22시 00분
+2022년 11월 23일 수요일
+[김종진] [오후 6:02] System.out.println("이름을 입력해 주세요");
+String name = s.next();
+System.out.println("사는 곳을 입력해주세요");
+String addr = s.next();
+System.out.println("나이를 입력해주세요.");
+int age = s.nextInt();
+System.out.println("체중을 입력해주세요.");
+double weight = s.nextDouble();
+System.out.println("내 이름은 "+name);
+System.out.println("사는 곳은 "+ addr+ "이고, 나이는 "+age+"살이다.");
+System.out.println("몸무게는 "+weight+"kg이다.");
+[김종진] [오후 6:22] ystem.in
+키보드로부터 읽는 자바의 표준 입력 스트림 => 외우자
+
+scanner 클래스 = 입력 클래스 
+
+개발자가 원하는 다양한 타입 값을 쉽게 읽을 수 있음
+다양한 타입: 어제 배운 데이터 타입, 레퍼런스 타입 같은거
+2022년 11월 24일 목요일
+[김종진] [오전 9:32] sjwsrh@naver.com
+[김종진] [오후 3:19] 숙제 : 백준 2753번
+[김종진] [오후 3:19] 키워드: 중첩 if문
+[김종진] [오후 3:21] 숙제 : 백준 9498번
+[김종진] [오후 4:40] 숙제
+[김종진] [오후 4:40] 69번에 있음
+[김종진] [오후 5:50] *
+   **
+  ***
+ **** 이거 역 마름모 위쪽은 if 반대쪽은 else로 만들면 됨 숙제임
+*****
+ ****
+  ***
+   **
+    *
+
+[김종진] [오후 5:50]   *
+   **
+  ***
+ **** 
+ ****
+  ***
+   **
+    *
+[김종진] [오후 5:50]            *
+[김종진] [오후 6:11] /*   Scanner s=new Scanner(System.in);
+   System.out.println("연도를 입력하시오");
+   int n=s.nextInt();
+   
+   if(n>=1 && n<=4000) {
+      
+   
+   if(n%4==0 && !(n%100==0) || n%400==0)
+         {System.out.println(1);
+         }
+   else {
+      System.out.println(0);
+   }
+   }  */
+[김종진] [오후 6:11] /*Scanner s = new Scanner(System.in); 
+     System.out.println("100이하의 정수를 입력하라");
+       int n=s.nextInt();
+       
+         if(n>=90) {
+            System.out.println("A");
+         }
+         else if (n>=80) {
+            System.out.println("B");
+}
+         
+         else if (n>=70) {
+            System.out.println("C");
+}
+         else if (n>=60) {
+            System.out.println("D");}
+         
+         else  {
+            System.out.println("F");
+
+            
+         }        }} */
+[김종진] [오후 7:03] public class RR {
+
+   public static void main(String[] args) {
+      
+      
+      
+   for(int i=1;i<10;i++) {
+      if(i<6) {
+         for(int j=1;j<6-i;j++) {
+         
+         System.out.print(" ");   
+         } 
+         for (int j=1 ;j<i+1;j++) {
+            System.out.print("*");}
+       System.out.println();}
+      
+[김종진] [오후 7:30] public class RR {
+
+   public static void main(String[] args) {
+      
+      
+      
+   for(int i=1;i<10;i++) {
+      if(i<6) {
+         for(int j=1;j<6-i;j++) {
+         
+         System.out.print(" ");   
+         } 
+         for (int j=1 ;j<i+1;j++) {
+            System.out.print("*");}
+       System.out.println();}
+      
+2022년 11월 25일 금요일
+[김종진] [오전 8:57] import java.util.Scanner;
+
+public class YY {
+
+   public static void main(String[] args) {
+      
+      
+      
+   for(int i=1;i<10;i++) {
+      if(i<=5) {
+         for(int j=1;j+i<=5;j++) {
+         
+         System.out.print(" ");   
+         } 
+         for (int j=1 ;j<=i;j++)
+            System.out.print("*");
+         System.out.println(); } 
+   
+         else if (i>5 && i<=9){
+            for(int j=1; j<=i-5;j++){
+               System.out.print(" ");
+               
+            
+          ...
+[김종진] [오전 9:05] import java.util.Scanner;
+
+public class SS {
+
+   public static void main(String[] args) {
+      
+      
+      
+   
+   Scanner s=new Scanner(System.in);
+   System.out.println("연도를 입력하시오");
+   int n=s.nextInt();
+   
+   if(n>=1 && n<=4000) {
+      
+   
+   if(n%4==0 && !(n%100==0) || n%400==0)
+         {System.out.println(1);
+         }
+   else {
+      System.out.println(0);
+   }
+   }  }}
+      
+[김종진] [오전 9:11] import java.util.Scanner;
+
+public class SS {
+
+   public static void main(String[] args) {
+      
+      
+
+      
+      
+      
+      
+   
+      
+      
+      Scanner s = new Scanner(System.in); 
+     System.out.println("100이하의 정수를 입력하라");
+       int n=s.nextInt();
+       
+           if (n>100) {
+              System.out.println(" ");
+           }
+           else if(n>=90) {
+            System.out.println("A");
+         }
+         else if (n>=80) {
+            System.out.println("B");
+}
+         
+...
+[김종진] [오후 3:01] import java.util.Scanner;
+
+public class SS {
+
+   public static void main(String[] args) {
+      
+   Scanner s=new Scanner(System.in);
+   int answer=18;
+    int count=0;
+    
+   
+    
+    while(true) {
+          System.out.println("입력해보던가");
+           int n=s.nextInt();
+           
+           if(n==answer) {
+              System.out.println("정답인데");
+              count++;
+              break;
+              
+             
+           }
+           else if(n>answer) {
+              System.out.printl...
+[김종진] [오후 4:02] import java.util.Scanner;
+
+public class SS {
+
+   public static void main(String[] args) {
+
+   
+   for (int i=2;i<=9;i++) {
+      
+      if(i%2==1) {
+         continue;
+      }
+      for(int j=1; j<=9; j++)
+      {System.out.printf("%d * %d = %d \n", i,j,i*j);
+   }}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[김종진] [오후 4:54] import java.util.Scanner;
+
+public class SS {
+
+   public static void main(String[] args) {
+      
+//1. 정수 5개를 저장할 배열
+      
+      int array []=new int[5];
+      
+   //2. 실수 10개를 저장할 배열
+      double arrray []=new double[10];
+      
+      //3 배열 요소 수가 3개인 int형 배열
+      
+      int aray []= new int[3];
+      
+      //4 인덱스의 최대값이 4인 char형 배열
+      
+      char aaray[]= new char[5];
+      
+      
+      
+[김종진] [오후 5:07] int ary[]= {3,6,12,563,4};
+   for(int i=0;i<5;i++){
+   System.out.println(ary[i]);
+   
+[김종진] [오후 5:51] import java.util.Scanner;
+
+public class SS {
+
+   public static void main(String[] args) {
+      
+ Scanner s=new Scanner(System.in);
+ 
+ //5개 실수 입력할 배열을 생성하여
+ // 5개 실수를 입력해 총합을 출력해라
+ 
+ double ary[]= new double[5];
+double sum=0;
+      
+ for(int i=0; i<5; i++) { 
+    ary[i]=s.nextDouble(); 
+    sum+=ary[i]; //0+1,1
+ }
+ System.out.println("입력한 수의 평균" +sum);
+ }}
+[김종진] [오후 6:06] import java.util.Scanner;
+
+public class SS {
+
+   public static void main(String[] args) {
+      
+ Scanner s=new Scanner(System.in);
+
+ int ary[]= new int[5];
+ int max=0;
+ 
+ for(int i=0;i<ary.length;i++) {
+    ary[i]=s.nextInt(); //정수입력 받아서 배열에 저장
+    if(max <ary[i]) {
+       max=ary[i];
+    }
+ } System.out.println("가장 큰 수는"+max);
+    
+   }}//이것이 최댓값을 구하는 코드니라
+ 
+ 
+2022년 11월 26일 토요일
+[김종진] [오전 8:23] 08시 30분
+2022년 11월 27일 일요일
+[김종진] [오전 1:05] 01시 05분
+[김종진] [오전 8:07] 08시 10분
+2022년 11월 28일 월요일
+[김종진] [오후 8:37] import java.util.Scanner;
+
+public class BB {
+
+   public static void main(String[] args) {
+      
+   int a[]= new int [7];
+
+   for(int i=1; i<46; i++) {
+    a[i]= (int)(Math.random()*46);
+    
+    System.out.println(a[i]);
+      
+      
+   
+   }}}
+[김종진] [오후 8:46] int arr[] = new int[6]; // 뽑고자 하는 로또번호 6개의 번호
+        for (int i = 0; i < arr.length; i++) {
+
+            arr[i] = (int) (Math.random() * 45) + 1; // 1 ~ 45 까지의 난수 추출
+            for (int j = 0; j < 6; j++) {
+                if (arr[i] == arr[j]) { // 중복 제거
+                    j--;
+                    break;
+                }
+            } // for
+            System.out.println((i + 1) + "번째 번호 : " + arr[i]);
+        } // for
+[김종진] [오후 9:31] 
+2022년 11월 29일 화요일
+[김종진] [오후 3:37] import java.util.Scanner;
+public class LL {
+   
+   
+   public static void main(String[] args) {
+      
+      int i=0;
+      int j=0;
+      for(i=2; i<=9; i++ ) {
+         for(j=1; j<=9; j++) {
+            
+            System.out.printf
+            ("%d 곱하기 %d 는 %d 이다.\n", i,j,i*j);
+            
+         }
+         }}
+      }
+      
+   
+   
+public static void main(String[] args) {
+      
+      int i=0;
+      int j=0;
+      
+      for(i=1; i<=9; i++ ) {
+         for(j=1; j<=9; j++) {
+            
+...
+[김종진] [오후 8:38]    //6
+   
+   String a= "C++";
+   String b= "JAVA";
+   
+   
+   String str[]= {"C++", "JAVA"};
+   
+   System.out.println(a);
+   
+     a=a.concat(b);
+     System.out.println(a);
+   
+     System.out.println(a.substring(3).length());
+     
+     a=a.replace(b, a);
+     System.out.println(a);
+     
+
+2022년 11월 30일 수요일
+[김종진] [오후 4:09]    int i=0;
+   int sum=0;
+   
+   while(i<=100) {
+ 
+      if(i%2==0 && i%7==0) {
+         sum+=i;
+         
+      }
+      i++;
+      } System.out.println(sum);
+   
+   }
+}
+      
+[김종진] [오후 4:09] 이거 잘봐
+[김종진] [오후 4:09] {} 위치 잘 보고
+[김종진] [오후 4:09] i++을 어디다가 넣어야 하는지
+[김종진] [오후 4:10] sum+=i;는 언제 넣을건지
+[김종진] [오후 4:10] 초기값은 반복문 전에 박는거고
+[김종진] [오후 4:10] 저런 것들 그냥 아무데나 쑤셔넣지 말고
+[김종진] [오후 4:10] 잘 보라고
+[김종진] [오후 4:10] 쑤셔넣는 자리가 있고 하나라도 다르면 안 돼
+[김종진] [오후 4:10] 아마 그 랜덤함수 그것도
+[김종진] [오후 4:10] 니가 쑤셔넣는 자리를 이상하게 했을거야
+[김종진] [오후 4:11] 정해진 자리가 있음
+[김종진] [오후 4:11] 거의다 정해진 자리가 있고
+[김종진] [오후 4:11] 심지어 아무데나 넣는 새 함수도
+[김종진] [오후 4:11] class 안에 넣어야 한다는 조건이 있음
+2022년 12월 1일 목요일
+[김종진] [오후 5:12] import java.io.DataInputStream;
+
+class Profile{
+   
+   int age;
+   String name;  //필드 //멤버변수
+   
+   void show() {  //메소드
+      System.out.println(age+" "+name);
+   }
+}
+public class Test {
+   public static void main(String[] args) {
+      
+      Profile p1=new Profile(); //객체 p1
+      
+      p1.age=22;
+      p1.name="건용"; //필드 초기화
+      
+      p1.show(); //함수호출
+2022년 12월 2일 금요일
+[김종진] [오후 1:07] class Book {
+   String title;
+   String author;
+   int ISBN;
+
+   public Book(String title, String author, int ISBN) {
+      this.title = title;
+      this.author = author;
+      this.ISBN = ISBN;
+   }
+   public Book(String title, int ISBN) {
+      this(title, "Anonymous", ISBN);
+      //생성자 2개짜리임. 근데 갑자기 this 쓰면서 3개 호출하라네?
+   }
+   public Book() {
+      this(null, null, 0); 
+      System.out.println("생성자가 호출되었음");
+      //얜 생성자 3개짜리임
+   }
+   void show() {
+      System.out.println(title+ " "+autho...
+[김종진] [오후 1:12] 만약에 생성자 3개짜리가 2개면? 그럴 순 없음
+[김종진] [오후 1:12] 오버로드 성립조건이 다 달라야 하기 때문에 생성자 개수나 그런것 등이 아예 성립이 안됨 그러니 안심 가능 ㅋㅋㅋ
+[김종진] [오후 4:16] class AAA{
+   void ride() {
+      System.out.println("오버라이딩 AAA");
+   }
+   void load() {
+      System.out.println("오버로딩 AAA");
+   }
+}
+
+
+
+public class ZZ{
+   public static void main(String[]args) {
+      
+AAA a= new AAA();
+a.ride();
+a.load();
+   
+   }}
+
+
+[김종진] [오후 4:16] 이거 가장 기본적인 유형이거든?
+[김종진] [오후 4:16] 외워 무조건
+[김종진] [오후 4:16] 무슨 일이 있어도
+[김종진] [오후 4:16] 형식을 아예 통째로 외우셈
+[김종진] [오후 5:01] 가장 대표적인 for문 중첩
+[김종진] [오후 5:01] 
+
+public class ZZ{
+   
+   public static void main(String[] args) {
+      
+  int ary[][]= new int[3][4];
+  
+  for(int i=0; i<3; i++) {
+     for(int j=0; j<4; j++) {
+        ary[i][j]=i+j;
+        System.out.print(ary[i][j]);
+     }
+     System.out.println();
+  }
+   }
+}
+[김종진] [오후 5:12] import java.util.Scanner;
+
+public class ZZ{
+   
+   public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+      //1
+      int n;
+      int sum=0;
+      
+      int cnt = 0;
+      while(true) {
+      
+         System.out.println("실수 입력");
+         n=s.nextInt();
+         cnt++;
+         sum+=n;
+         if(n==-1) {
+            break;
+         }
+         
+      }System.out.println("총"+cnt+"번 입력했으며 평균은"+sum/cnt+"입니다.");
+   }}
+[김종진] [오후 5:47] class Rectangle {
+   
+   int width=5;
+   int height=6;
+  
+   int area() {
+      
+      return(width*height) ;
+   }
+   
+
+   
+}
+
+public class ZZ{
+   
+   
+   
+   public static void main(String[] args)   {
+      
+   
+        
+              Rectangle rec = new Rectangle();
+              rec.width=5;
+              rec.height=6;
+              System.out.println("사각형 면적" + rec.area( ));
+
+      
+      
+      
+      
+}}
+[김종진] [오후 6:06] import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class ZZ{
+   
+   public static void main(String[] args) throws IOException {
+  
+      FileWriter f= new FileWriter("test01.txt");
+      
+      
+    
+      f.write("hi");
+      f.write("저는 자바를 좋아하고 잘합니다");
+      f.write("앞으로 더 열심히 공부할 것입니다");
+      
+      f.close(); 
+      
+      
+   }    }
+      
+      
+      
+      
+
+        
+      
+      
+[김종진] [오후 6:12] import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class ZZ{
+   
+   public static void main(String[] args) throws IOException  {
+      
+      Scanner s= new Scanner(System.in);
+      
+      FileWriter fw= new FileWriter("test02.txt");
+      char name;
+      String id;
+      
+      while(true) {
+      System.out.print("이름을 입력해봐라");
+      name=s.next().charAt(0);
+      System.out.print("ID를 입력해봐라");
+        id=s.next();
+      
+        if(fw.equals("그만")) {
+   ...
+[김종진] [오후 6:34] class Song{
+
+   String s1;
+   String time;
+   
+     Song(String s1){
+        this.s1=s1;
+    
+     }
+     String getsong() {
+        return s1;
+        
+     }
+   
+        
+   }
+      
+     
+    
+ 
+      
+
+public class ZZ{
+   
+   
+   
+   public static void main(String[] args)   {
+      
+      Song s1 = new Song("On");
+      Song s2 = new Song("00:00");
+      System.out.println("좋아하는 노래" + s1.getsong());
+      System.out.println("내 노래" + s2.getsong());
+
+   
+}
+}
+[김종진] [오후 6:42] class Song{
+
+   String s1;
+   String time;
+   
+     Song(String s1){
+        this.s1=s1;
+    
+     }
+     String getsong() {
+        return s1;
+        
+     }
+   
+        
+   }
+      
+     
+    
+ 
+      
+
+public class ZZ{
+   
+   
+   
+   public static void main(String[] args)   {
+      
+      Song s1 = new Song("On");
+      Song s2 = new Song("00:00");
+      System.out.println("좋아하는 노래" + s1.getsong());
+      System.out.println("내 노래" + s2.getsong());
+
+   
+}
+}
+2022년 12월 3일 토요일
+[김종진] [오전 8:57] 09시 00분
+2022년 12월 4일 일요일
+[김종진] [오전 12:01] 00시 00분
+[김종진] [오전 8:58] 09시 00분
+[김종진] [오후 9:25] 21시 25뷰
+2022년 12월 5일 월요일
+[김종진] [오후 12:03] import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+
+
+public class PL{
+   public static void main(String[]args) {
+      
+      FileReader i= new FileReader("java.txt");
+      InputStreamReader s = new InputStreamReader(i);
+ 
+      String b="안녕";
+      
+      i.write(b);
+      i.close();
+      
+   }
+}
+[김종진] [오후 12:03] 이게 문제 1번인데 왜 안되는거임
+[김종진] [오후 12:26] class Fruit{
+   
+String a;
+int b;
+
+Fruit(String a, int b){
+   this.a=a;
+   this.b=b;
+}
+  void show() {
+     System.out.println(a+" "+b);
+  }
+      
+}
+class Apple extends Fruit{
+   Apple(String a, int b){
+      super(a,b);
+   }
+   
+   public static void main(String[] args) {
+      
+      Fruit f1= new Apple("red",10);
+      f1.show();
+      
+
+
+   }
+}
+[김종진] [오후 12:27] 이것도 외우자
+[김종진] [오후 3:10] class Cal{
+   
+   int a,b;
+   
+   static int add(int a, int b) {
+      return a+b;
+   }
+   static int div (int a, int b)
+   { return a/b;
+
+}
+public class PL{
+   public static void main(String[]args) {   
+      int a=Cal.add(10,5); //합
+
+      int b=Cal.div(10,5); //몫
+
+      System.out.println(a +" " +b);}
+}
+}   
+[김종진] [오후 3:10] 문제 4번 이거 너무 쉬운데 못 품
+[김종진] [오후 3:10] 외우자 이건
+[김종진] [오후 4:13] 
+public class PL{
+   static int get(int a[][]) {
+      int max=0;
+   
+      for(int i=0; i<a.length; i++) {
+      for(int j=0; j<a[i].length; j++) {
+         if(a[i][j]> max) {
+            max=a[i][j];
+         }
+      }
+      }
+      return max;
+   
+   }
+
+   public static void main(String[]args) {   
+      
+      int[][] grade = {{55, 60, 65}, {85, 90, 95}};
+
+      int high;
+
+      high= get(grade);
+
+      System.out.println
+      ("가장 높은 점수는 " + high+ "점 입니다.");
+      
+   }}
+[김종진] [오후 4:13] 6번 답임
+[김종진] [오후 4:22] import java.util.Scanner;
+
+
+
+
+public class PL{
+   public static void main(String[]args) {   
+      
+      String eng[]={"student","book","future","note"};
+      String kor[]={"학생","책","미래","노트"};
+
+      Scanner s = new Scanner(System.in);
+
+      while(true) {
+      System.out.print("영어 단어 입력: ");
+      String str = s.next();
+      if (str.equals("stop")) {
+      break;
+      }
+      for (int i = 0; i < eng.length; i++)
+      {
+      if (eng[i].equals(str))
+      {
+      System.out.println(kor[i]...
+[김종진] [오후 9:22] 
+class Student{
+   String a; 
+   String b;
+   Student (String a,String b){
+      this.a=a;
+      this.b=b;
+   }  void pr(){
+      System.out.println(a);
+      System.out.println(b);
+   }
+
+      
+   }
+
+public class PL{
+   
+   public static void main(String[]args) {
+   
+      Student s1=new Student("김길동", "kim");
+
+      Student s2=new Student("이길동", "lee");
+
+      s1.pr(); s2.pr();
+      
+   }
+}
+[김종진] [오후 9:22] 와 드디어 컴파일 오류없이 상대꺼 안보고 내가처음으로
+[김종진] [오후 9:22] 제대로 풀었다 ㅅㅂ ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+[김종진] [오후 9:22] 아주나이스 이므로 이 코드를 박제하노라
+2022년 12월 7일 수요일
+[김종진] [오후 8:15] //일단 3, 123p문제, 5, 6 이 4가지 부터
+public class PL{
+   
+   public static void main(String[]args) {
+      
+      byte b=127;
+      int i=100;
+      System.out.println((byte)(b+i));
+      
+      //저렇게 나오는 이유는 
+      //b+i는 묵시적으로 int값으로 저장되는데,
+      //byte는 정수값을 문자로 바꾸기 때문에 
+     //int -128~+128 인상태에서
+     }//256-227= -29
+   
+}
+[김종진] [오후 8:36] 
+[김종진] [오후 8:36] import java.util.Scanner;
+public class PL{
+   
+   public static void main(String[]args) {
+      
+      Scanner s= new Scanner(System.in);
+      
+      int i=0;
+      int n=999999999;
+      int sum=0;
+      System.out.println("하나의 정수를 입력하시요");
+   
+      while(i<n) {
+         
+         i=s.nextInt();
+         sum+=i;
+      
+         if(i==0) {
+            break;
+            
+            
+         }
+         
+      }System.out.println(sum);
+      
+[김종진] [오후 8:44] //p123 1번 case
+public class PL{
+   
+   public static void main(String[]args) {
+   
+      int num1=10;
+      int num2=2;
+      char operator='+';
+   
+      if() {
+         System.out.println(num1+num2);
+         
+         }
+      else if() {
+         System.out.println(num1-num2);
+         
+         }
+   
+      else if() {
+         System.out.println(num1*num2);
+         
+         }
+   
+      else if() {
+         System.out.println(num1/num2);
+         
+         }
+   
+   
+   }
+}
+[김종진] [오후 8:50] /p123 2번 Q2
+public class PL{
+   
+   public static void main(String[]args) {
+   
+      for(int i=2; i<=9; i++) {
+         for(int j=1; j<=9; j++){
+            
+            if(i%2==1) {
+               continue;
+            }System.out.println(i+"곱하기"+"는"+i*j+"이다");
+         }System.out.println();
+         
+      }
+   }
+}
+[김종진] [오후 8:52] //p123 2번 Q3
+public class PL{
+   
+   public static void main(String[]args) {
+   
+      for(int i=2; i<=9; i++) {
+         for(int j=1; j<=9; j++){
+            
+            if(i<j) {
+               break;
+            }System.out.println(i+"곱하기"+j+"는"+i*j+"이다");
+         }System.out.println();
+         
+      }
+   }
+}
+[김종진] [오후 8:57] //p123 2번 Q4
+public class PL{
+   
+   public static void main(String[]args) {
+   
+      for(int i=0; i<5; i++) {
+         for(int j=1; j<5-i; j++) {
+            
+         System.out.print(" ");
+         }
+      for(int j=0; j<i*2-1; j++) {
+         System.out.print("*");
+      }System.out.println();
+         
+      }
+   }
+}
+[김종진] [오후 9:02] //p123 2번 Q5
+public class PL{
+   
+   public static void main(String[]args) {
+   
+      for (int i = 1; i < 5; i++) {
+         for (int j = 5; j > i; j--) {             //위쪽 삼각형
+            System.out.print(" ");
+         }
+         for (int j = 1; j <= i * 2 - 1; j++) {
+            System.out.print("*");
+         }
+         System.out.println();
+      }
+      for (int i = 3; i > 0; i--) {                //아래쪽 삼각형
+         for (int j = 5; j > i; j--) {
+            System.out.print(" ");
+         }
+         for (int j = 1; j <= i * 2 - 1; j++) {
+            System.out.print("*");
+         }
+         System.out.println();
+      }}}
+[김종진] [오후 9:09] // 5번
+import java.util.Scanner;
+public class PL{
+   
+   public static void main(String[]args) {
+      
+      Scanner s= new Scanner(System.in);
+      
+      int i=0; 
+      int cnt=1;
+      
+      
+      while(true) {
+      
+      i=s.nextInt();
+      
+      if(i==0) {
+         break;
+      }
+         
+         cnt++;
+         
+         
+      }System.out.println(cnt);
+      
+   }
+}
+
+//while, break문을 사용해 0이 입력될때까지 
+
+//입력한 숫자의 개수를 출력
+[김종진] [오후 9:18] import java.util.Scanner;
+public class PL{
+   
+   public static void main(String[]args) {
+      
+      Scanner s=new Scanner(System.in);
+      
+   int a[]= new int[5];
+   
+   int max=0;
+   for(int i=0; i<a.length; i++) {
+       a[i]=s.nextInt();
+      if(a[i]>max) {
+         int temp=a[i];
+         a[i]=max;
+         max=temp;
+      }
+      
+   } System.out.println(max);
+   
+   
+   
+}}
+   //키보드로 정수 5개 입력받아 제
+[김종진] [오후 9:22] // 53p
+
+public class PL{
+   public static void main(String[]args) {
+      
+      char ch1='A';
+      System.out.println(ch1);
+      System.out.println((int)ch1);
+      
+      char ch2= 66;
+      System.out.println(ch2);
+      
+      int ch3=67;
+      System.out.println(ch3);
+      System.out.println((char)ch3);
+   }
+}
+[김종진] [오후 9:23] // 65p
+
+public class PL{
+   public static void main(String[]args) {
+      
+      byte bNum=10;
+      int iNum=bNum;
+      
+      System.out.println(bNum);
+      System.out.println(iNum);
+      
+      int iNum2=20;
+      float fNum=iNum2;
+      
+      System.out.println(iNum);
+      System.out.println(fNum);
+      
+      double dNum;
+      dNum= fNum+iNum;
+      System.out.println(dNum);
+   }
+   
+}
+[김종진] [오후 9:25] // 68p
+
+public class PL{
+   public static void main(String[]args) {
+      
+      double dNum1=1.2;
+      float fNum2=0.9F;
+      
+      int iNum3=(int)dNum1+(int)fNum2;
+      int iNum4=(int)(dNum1+fNum2);
+      System.out.println(iNum3);
+      System.out.println(iNum4);
+   }
+   
+}
+[김종진] [오후 9:27] // 117p
+
+public class PL{
+   public static void main(String[]args) {
+      
+      int dan;
+      int times;
+      
+      for(dan=2; dan<=9; dan++) {
+         for(times=1; times<=9; times++) {
+            System.out.println(dan+"X"+times+"="+dan*times);
+         }System.out.println();
+      }
+   
+}}
+[김종진] [오후 9:29] // 121p
+
+public class PL{
+   public static void main(String[]args) {
+      
+      int sum=0;
+      int num=0;
+      
+      for(num=0; ; num++) {
+         sum+=num;
+         if(sum>=100) {
+            break;
+         }
+         
+      }System.out.println("num :"+num);
+      System.out.println("sum: "+sum);
+}}
+[김종진] [오후 9:35] 
+[김종진] [오후 10:47] //p172
+      class Person{
+         String name;
+         int age;
+         
+         Person(){
+            this("이름없음",1);
+            
+         }
+         Person(String name, int age){
+            this.name=name;
+            this.age=age;
+            
+            
+         }
+      }
+      public class MJ {
+
+         public static void main(String[] args) {
+      
+            Person noName= new Person();
+            System.out.println(noName.name);
+            System.out.println(noName.age);
+      
+   
+   }}
+
+[김종진] [오후 10:49] //p172
+      class Person{
+         String name;
+         int age;
+         
+         Person(){
+            this("이름없음",1);
+            
+         }
+         Person(String name, int age){
+            this.name=name;
+            this.age=age;
+            
+            
+         }
+      }
+      public class MJ {
+
+         public static void main(String[] args) {
+      
+            Person noName= new Person();
+            System.out.println(noName.name);
+            System.out.println(noName.age);
+      
+   
+   }}
+
+[김종진] [오후 11:43] 
+[김종진] [오후 11:52] 
+2022년 12월 8일 목요일
+[김종진] [오전 12:00] 
+[김종진] [오전 12:03] //218p
+
+public class MJ{
+   
+   public static void main(String[]args) {
+      String[] strArray= 
+   {"Java","Android","c","JavaScript", "Python"};
+      
+      for(String lang: strArray) {
+         System.out.println(lang);
+      }
+   }
+   }
+[김종진] [오전 9:11] 
+[김종진] [오전 9:26] 
+[김종진] [오후 2:23] 
+[김종진] [오후 5:40] //354p,356p
+
+class Book{
+   int bookNumber;
+   String bookTitle;
+   
+   Book(int bookNumber, String bookTitle){
+      this.bookNumber=bookNumber;
+      this.bookTitle=bookTitle;
+   }
+   
+   @Override
+   public String toString() {
+      return bookTitle+ " ,"+bookNumber;
+   }
+}
+
+public class Scheduler{
+   
+   public static void main(String[]args) {
+      Book book1= new Book(200,"개미");
+      
+   System.out.println(book1);
+   System.out.println(book1.toString());
+   }
+}
+
+[김종진] [오후 5:47] 
+[김종진] [오후 5:54] //322p~325p
+interface Scheduler{
+    void getNextCall();
+ void sendCallToAgent();
+   
+}
+
+//상담원 한 명씩 돌아가며 동이랗게 상담 업무 배분
+ class RoundRobin implements Schduler {
+
+     @Override   
+    void getNextCall() {
+      System.out.println("상담 전화를 순서대로 대기열에서 가져옵니다.");
+   }
+
+   @Override
+    void sendCallToAgent() {
+      System.out.println("다음 순서 상담원에게 배분합니다.");
+   }
+}
+
+//현재 상담 업무가 없거나 상담 대기가 가장 적은 상담원에게 배분
+
+ class LeastJob implements Schduler {
+   @Override
+    void getNextCall() {
+      System.out.println("상담 전화를 순서대로 대기열에서 가져옵니다.");
+   }
+
+   @Override
+ void sendCallToAgent() {
+      System.out.println("현재 상담 업무가 없거나 대기가 가장 적은 상담원에게 연결함니다.");
+   }
+}
+
+//고객 등급이 높은 고객의 전화부터 대기열에서 가져와 업무 능력이 높은 상담원 우선 배분
+
+ class PriorityAllocation implements Scheduler {
+   @Override
+    void getNextcall() {
+      System.out.println("고객 등급이 높은 고객의 전화를 먼저 가져옵니다.");
+   }
+
+   @Override
+    void sendCallToAgent() {
+      System.out.println("업무 skill 값이 가장 높은 상담원에게 우선적으로 배분합니다.");
+   }
+}
+
+import java.io.IOException;
+
+public class Scheduler{
+   public static void main(String[] args) throws IOException {
+      System.out.println("전화 상담 할당 방식을 선택하세요.");
+      System.out.println("R: 한명씩 차레로 할당");
+      System.out.println("L:  쉬고 있거나 대기가 가장 적은 상담원에게 할당");
+      System.out.println("P:우선순위가 높은 고객 먼저 할당");
+
+      int ch = System.in.read();
+      Scheduler scheduler = null;
+
+      if (ch == 'R' || ch == 'r') {
+         scheduler = new RoundRobin();
+      } else if (ch == 'L' || ch == 'l') {
+         scheduler = new LeastJob();
+      } else if (ch == 'P' || ch == 'p') {
+         scheduler = new PriorityAllocation();
+      }
+
+      else {
+         System.out.println("지원되지 않는 기능입니다.");
+         return;
+      }
+
+      scheduler.getNextCall();
+      scheduler.sendCallToAgent();
+   }
+}
+[김종진] [오후 5:59] //525p
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Scheduler{
+   public static void main(String[]args) {
+   try(FileInputStream fis = new FileInputStream("input.txt")){
+         int i;
+         while((i=fis.read())!=-1) {
+            System.out.println((char)i);
+         }
+         System.out.println("end");
+      }catch(FileNotFoundException e) {
+         e.printStackTrace();
+      }catch (IOException e){
+         e.printStackTrace();
+      }
+            
+   }
+}
+[김종진] [오후 6:03] //531p
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class Scheduler{
+   public static void main(String[]args)throws IOException {
+   FileOutputStream fos = new FileOutputStream("output2.txt",true);
+         try(fos){
+         byte[]bs= new byte[26];
+         byte data=65; //A의 아스키값
+         
+         for(int i=0; i<bs.length; i++) {
+            bs[i]=data;
+            data++;
+         }
+         fos.write(bs);
+         
+      }catch(IOException e) {
+         e.printStackTrace();
+      }
+         System.out.println("출력이 완료되었습니다.");
+            
+   }
+}
+[김종진] [오후 6:05] //536p
+
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Scheduler{
+   public static void main(String[]args) {
+      try(FileReader fr= new FileReader("reader.txt")){
+         int i;
+         while((i=fr.read())!=-1) {
+            System.out.println((char)i);
+         }
+      }catch (IOException e) {
+         e.printStackTrace();
+      }
+   }
+}
+[김종진] [오후 6:08] //538p
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Scheduler{
+   public static void main(String[]args) {
+      try(FileWriter fw= new FileWriter("writer.txt")){
+         fw.write('A');
+      char buf[]= {'B','C','D','E','F','G'};
+      
+      fw.write(buf);
+      fw.write("안녕하세요. 잘 써지네요");
+      fw.write(buf,1,2);
+      fw.write("65");
+      }catch(IOException e) {
+         e.printStackTrace();
+      }System.out.println("출력이 완료되었습니다.");
+   }
+}
+[김종진] [오후 6:18] 
+2022년 12월 10일 토요일
+[김종진] [오전 8:52] 09시 00분
+[김종진] [오후 11:42] 23시 40분
+2022년 12월 11일 일요일
+[김종진] [오전 9:56] 10시 00분
+[김종진] [오후 9:09] 21시 00분
+2022년 12월 13일 화요일
+[김종진] [오후 2:09] 
+[김종진] [오후 2:26] 
+[김종진] [오후 8:27] 
+[김종진] [오후 8:41] 
+[김종진] [오후 8:50] 
+[김종진] [오후 8:53] //p446
+
+Q1. 컬렉션 프레임워크
+
+Q2. 제너릭
+
+Q3. Iterator
+
+Q4. TreeSet은 뿌리부터 가지까지, 즉 일정한 순서대로 나열하는것인데,
+그 순서를 오름차순으로하든 내림차순으로하든 비교할 도구가 있어야 하는데
+그게 Comparable 이랑 Comparator이다.
+[김종진] [오후 10:09] Student.class
+2022년 12월 14일 수요일
+[김종진] [오후 2:14] //1
+public class A{
+   
+   public static void main(String[]args) {
+      
+      double a=10;
+      double b=4.0;
+
+      double c=a/b;
+            
+            System.out.println(c);
+
+   }
+}
+[김종진] [오후 6:04] import java.awt.*;
+
+import javax.swing.*;
+
+public class A extends JFrame{
+   
+   A(){
+   
+   Container ct= getContentPane();
+    
+   setVisible(true);
+   
+
+   Color c[]=
+{Color.BLUE,  Color.WHITE, Color.RED};
+   
+   ct.setLayout(new GridLayout(1,3));
+   
+   JButton[]b1= new JButton[3];
+   
+   for(int i=0; i<b1.length; i++) {
+      b1[i]= new JButton();
+      b1[i].setBackground(c[i]);
+   ct.add(b1[i]);
+   }
+   
+   
+   }
+
+   public static void main(String[]args) {
+      
+      new A();}
+   
+}
+
+
+ ...
+[김종진] [오후 8:12] //3 
+
+public class A{
+   
+   public static void main(String[]args) {
+      int i=0;
+      while(true) {
+      
+         if(i%5==0) {
+            continue;
+         }
+         else if(i<=30) {
+            break;
+         }
+      }
+      System.out.println(i);
+      }}
+   
+[김종진] [오후 8:24] //4
+class adder {
+   int a;
+   int b;
+
+   public static int adder(int a, int b) {
+
+      int result = a + b;
+
+      return result;
+
+   }}
+
+   class exp {
+
+      double c;
+
+      public static double exp(double c) {
+
+         return c * c;
+
+      }   }
+
+      public class A {
+
+   public static void main(String[]args) {
+      int result= adder(10,20);// 두 수의 합 출력
+      
+      System.out.println(result);
+      
+      System.out.println(exp(3.5));
+      
+   }}      
+      
+      
+
+2022년 12월 15일 목요일
+[김종진] [오후 4:53] 
+[김종진] [오후 5:28] //8
+class Point{
+   int a;
+   int b;
+
+   Point(int a, int b){
+      this.a=a;
+      this.b=b;
+   }
+   public String toString() {
+      return a+" "+b;
+   }
+}
+
+
+public class C{
+   
+   public static void main(String[]args) {
+      
+   
+         Point p = new Point(3,4);
+         System.out.println(p); //3.4출력
+
+   }
+}
+[김종진] [오후 6:32] //2
+
+public class C {
+
+   public static void main(String[] args) {
+
+      int i = 0;
+      int sum = 0;
+      while (i < 101) {
+         i++;
+
+         if (i % 5 != 0) {
+            continue;
+
+         }
+         sum += i;
+         
+         
+      }
+      System.out.println(sum);
+   }
+
+}
+[김종진] [오후 6:36] //3 
+
+public class C{
+   
+   public static void main(String[]args) {
+      int i=0;
+      while(true) {
+         i++;
+         if(i%5==0) {
+            
+            continue;
+            
+         }
+         else if(i>30) {
+            break;
+         }
+         
+
+         System.out.println(i);  }
+     
+      }}
+2022년 12월 16일 금요일
+[김종진] [오전 11:06] https://www.oracle.com/database/technologies/xe18c-downloads.html
+[김종진] [오후 12:36] https://www.oracle.com/database/sqldeveloper/technologies/download/
+[김종진] [오후 1:15] 
+[김종진] [오후 2:09] //5
+class Circle1{
+   int a;
+   int b;
+   Circle (int a){
+       this.a=a;
+   }
+
+   Circle(int b){
+      this.b=b;
+   
+   
+   public boolean equals() {
+      if(a.equals(b)) {
+         return true;
+      }
+   }
+}
+
+
+
+public class C{
+   
+   public static void main(String[]args) {
+      
+      Circle a=new Circle(30);
+      Circle b=new Circle(30);
+      System.out.println("반지름"+a);
+      System.out.println("반지름"+b);
+      if(a.equals(b)) {
+      System.out.println("같은 원"); }
+      else {
+      System.out.println("다른 원");} }
+
+   }
+
+   
+
+   
+   }
+[김종진] [오후 2:28] 
+[김종진] [오후 2:29] //7
+
+class Tv {
+   private int size;
+
+   Tv(int size) {
+      this.size = size;
+   }
+
+   protected int getsize() {
+      return size;
+   }
+
+}
+
+class Tv1 extends Tv{
+   int a;
+   String b;
+   
+   Tv1(int a, String b){
+      this.a=a;
+      this.b=b;
+   }
+   
+   void show() {
+      System.out.println(b+"인치"+a);
+   }
+}
+
+public class C{
+   
+
+public static void main(){
+Tv1 t=new Tv1(20, "삼성");
+t.show();
+}
+}
+// 삼성 20인치 Tv 출력
+
+[김종진] [오후 2:32] 
+//9
+
+interface Re{
+   Re();
+   
+class Rec implements Re{
+   int a;
+   int b;
+   Re(){};
+   
+   Rec(int a, int b){
+      this.a=a;
+      this.b=b;
+   
+   }
+   void show() {
+      System.out.println("사각형!!");
+   }
+   
+   public String getarea() {
+         int a=10;
+         int b=20;
+         int c=a*b;
+         return c+" ";
+   }
+}
+}
+
+
+public class C{
+   
+   public static void main(String[]args) {
+      
+      Re r= new Rec(10,20);
+      
+      r.show(); //사각형!! 출력
+      
+      System.out.printl...
+[김종진] [오후 2:32] 
+//10
+
+class Book{
+   String a;
+   String b;
+   
+   Book(String a, String b){
+      this.a=a;
+      this.b=b;
+   }
+
+   public String toString() {
+      return a+" "+b;
+   }
+   
+   void show() {
+      System.out.println(b2+"작가 미상");
+   }
+   
+   void show() {
+      System.out.println();
+   }
+   
+}
+
+public class C{
+   
+   public static void main(String[]args) {
+      
+      
+      Book b1= new Book("멋진 신세계", "올더스 헉슬리");
+      
+      Book b2=new Book("더 해빙");
+      Book b3=new Book(); 
+      }
+
+    ...
+[김종진] [오후 3:21] //11,12,13
+
+public class C{
+   
+   public static void main(String[]args) {
+      
+      Boolean.valueOf(false);
+      
+      Double.parseDouble("36.5");
+      Integer.valueOf("35");
+      
+      
+      
+   }
+}
+[김종진] [오후 3:29] //14
+
+class Cd<AB>{
+   
+   Cd(){
+      
+   }
+   
+   
+      
+   }
+
+class AB{
+   int total[];
+   AB(int total[]){
+      this.total=total;
+   }
+
+
+public int gettotal() {
+return 0;
+
+}
+}
+public class C{
+   
+   public static void main(String[]args) {
+      
+   AB c= new Cd();
+   
+   System.out.println(c.total(new int[] {1,2,3,4,5}));
+      
+   }
+}
+2022년 12월 17일 토요일
+[김종진] [오후 3:15] import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class Calculator extends JFrame {
+   
+   Calculator(){
+
+
+   Container ct = new Container();
+
+   JPanel up= new JPanel() {
+      
+      
+      setTitle("김종진식 계산기");
+   
+   setBackGround(Color.LIGHT_GRAY);
+      
+   JLabel jl= new JLabel("0");
+   setHorizontalAlignment(RIGHT);
+      
+   }
+   }}}
+   
+   JPanel down = new JPanel() {
+      
+      JButton jb= new JButton[n];
+      setLayout(new GridLayout(4,4));
+        setSize(...
+2022년 12월 20일 화요일
+[김종진] [오후 9:30] import java.awt.Color;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+
+import javax.swing.*;
+public class Calculator extends JFrame {
+
+   private JTextField inputSpace;
+   //계산식의 숫자를 담을 변수 num
+   private String num = "";
+   //방금 누른 버튼을 기억하는 변수 prev_operation
+   private String prev_operation = "";
+   //계산 기능을 구현하기 위해 ArrayList에 숫자와 연산 기호를 하나씩 구분해 담음
+   private ArrayList<String> equation = new A...
+2022년 12월 22일 목요일
+[김종진] [오후 6:52] https://www.inflearn.com/courses/it-programming
+[김종진] [오후 6:52] 인프런주소
+[김종진] [오후 6:52] 유로강의 듣고 가자
+2022년 12월 24일 토요일
+[김종진] [오후 8:27] 사진
+2022년 12월 28일 수요일
+[김종진] [오후 6:03] [김현오] [오후 6:03] # TABLE FOOD
+
+1. PRIMARY KEY (food_pk)
+2. 음식의 이름 (food_name)
+3. 그람 별 칼로리 (food_calorie)
+4. 단위의 이름 (예: 개, 인분, 횟수...) (food_metricname)
+5. 1단위의 그람수 (food_metricgrams)
+6. 음식의 대분류 (EX. 구이, 국...) (food_category)
+7. 그람 당 탄수화물 (food_carb)
+8. 그람 당 지방 (food_fat)
+9. 그람 당 단백질 (food_protein)
+10. 그람 당 나트륨 (food_sodium)
+[김종진] [오후 6:10] https://github.com/sdakfjasldkfjsldkajflksadjfklas/Main/blob/main/README.md
+2022년 12월 30일 금요일
+[김종진] [오후 6:54] 
+2023년 1월 2일 월요일
+[김종진] [오후 3:40] import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+
+class SubFrame extends JFrame implements ActionListener{
+
+    public SubFrame(){
+       
+        setSize(100,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         JTextArea ja= new JTextArea();
+         
+         add(ja);
+      
+        setLocation(200, 0);
+        setVisible(true);
+    }
+
+    @Override
+    public void ac...
+2023년 1월 3일 화요일
+[김종진] [오후 11:26] import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import javax.swing.*;
+import javax.swing.border.*;
+
+
+
+
+
+
+public class Test2 extends JFrame implements ItemListener, ActionListener{
+   Font fnt = new Font("굴림체", Font.BOLD, 20);
+   GridBagConstraints c;
+
+   JPanel selectPane = new JPanel(); 
+      JButton preBtn = new JButton("<"); 
+      JButton nexBtn = new JButton(">"); 
+      JComboBox<Integer> yearCombo = new JComboBox<Integer>(); 
+      JComboBox<Integer> monthCombo = new JCom...
+2023년 1월 8일 일요일
+[김종진] [오후 4:28] package com.APP.MainHome;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.border.BevelBorder;
+import javax.swing.border.Border;
+
+import java.awt.EventQueue;
+import javax.swing.plaf.FontUIResource;
+import java.awt.Dimension;
+
+import com.APP.NavBar.*;
+
+import java.awt.event.KeyEvent;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Arrays;
+
+import com.APP.Common.CustomImageIcon;
+import com.APP.Common.JPanelSize;
+
+//https://www.figma.com/proto/i...
+[김종진] [오후 4:59] setLayout(null) 이런거
+[김종진] [오후 4:59] 어쩔때는 그냥 쓰고 어쩔때는
+[김종진] [오후 4:59] create.setLAYOUT(NULL) 쓰는데
+[김종진] [오후 4:59] 구분이 안감 언제 써야할지
+2023년 1월 9일 월요일
+[김종진] [오전 11:00] https://soldesklms.com/
+[김종진] [오후 10:18] GitLens (Insiders) cannot be used while GitLens is also enabled. Please ensure that only one version is enabled.
+[김종진] [오후 11:49]                               
+                              
+                              
+   src: 어라어    ㅡㅡㅡㅡㅡㅡㅡ    com/APP 어라어   ㅡㅡㅡㅡㅡㅡㅡ   Calendar:none   ㅡㅡㅡ   AppCalendar.java         
+            ㅣ         D.java         
+            ㅣ                  
+            ㅣ                  
+            ㅣ                  
+            ㅡㅡㅡㅡㅡㅡㅡ   Common   ㅡㅡㅡ   CustomImageIcon.java         
+            ㅣ         JPanelSize.java         
+            ㅣ         ThreadCustom.java         
+            ...
+2023년 1월 10일 화요일
+[김종진] [오전 9:10] 사진
+[김종진] [오전 9:16] 사진
+[김종진] [오후 6:16] package M;
+
+import java.util.Scanner;
+
+public class Main {
+
+   public static void main(String[] args) {
+      
+      Scanner s= new Scanner(System.in);
+
+
+      //체내 알코올 농도 측정 계산 식을 위드마크 공식이라고 부른다.
+      
+      //위드마크 공식 변수들
+      double BodyAlcohol; // 체내 알코올 농도
+      BodyAlcohol=s.nextDouble();
+      
+      double HowManyEatingAlcohol;
+      HowManyEatingAlcohol=s.nextDouble();// 섭취한 알코올량
+      
+      double Weight;
+      Weight=s.nextDouble();//음주한 사람의 체중
+      
+      double Male=0.86;
+      d...
+[김종진] [오후 9:28] package com.APP.MainHome;
+
+
+
+public class Main {
+
+   public static void main(String[] args) {
+      
+
+
+      //체내 알코올 농도 측정 계산 식을 위드마크 공식이라고 부른다.
+      
+      //위드마크 공식 변수들
+      double BodyAlcohol = 0; // 체내 알코올 농도
+      
+      double HowManyEatingAlcohol;
+      System.out.println("섭취한 알코올량을 입력하시오");
+      HowManyEatingAlcohol=s.nextDouble();// 섭취한 알코올량
+      
+      double Weight;
+      System.out.println("당신의 체중을 입력하시오");
+      Weight=s.nextDouble();//음주한 사람의 체중
+      
+      
+       double Dec...
+[김종진] [오후 9:37] https://elwlsek.tistory.com/1520
+[김종진] [오후 9:48] package com.APP.MainHome;
+
+
+
+public class Main {
+
+   public static void main(String[] args) {
+      
+
+
+      //체내 알코올 농도 측정 계산 식을 위드마크 공식이라고 부른다.
+      
+      //위드마크 공식 변수들
+      double BodyAlcohol = 0; // 체내 알코올 농도
+      
+      double HowManyEatingAlcohol=355; // 섭취한 알코올량
+      
+      double Weight=55; //술 마신 사람의 체중
+      
+      
+       double DecreaseAlcohol=0.015; //시간당 알코올 감소량,정해져있는 상수임
+    
+       double hour=2; //시간의 단위(1시간임)
+      
+       
+      
+       double SexMale=0.86;
+       double ...
+[김종진] [오후 10:32] package com.APP.MainHome;
+
+
+
+public class Main {
+
+   public static void main(String[] args) {
+      
+  
+    //술이 완전히 깨는데 걸리는 시간
+      
+     //남자일 때
+      //40kg=  
+      //50kg= 7시간 20분 
+      //60kg = 4시간 52분   60/4.9=12.2 60/12.2=4.9(이게 실제 깨는데 걸리는 시간)
+      //70kg = 4시간 8분    70/4.1=17.0
+      //80kg = 3시간 36분   80/3.6=22.2
+      //90kg = 3시간 12분   90/3.2=28.12
+      
+      //여자일 때  그냥 여자는 남자의 2분의 1임 
+      //50kg = 7시간 52분   50/7.9=6.3
+      //60kg= 6시간 32분    60/6.5=9.2
+      //70kg = 5시간 36...
+[김종진] [오후 10:36] https://www.naayo.co.kr/%EC%88%A0%EC%9D%84-%EB%A7%8E%EC%9D%B4-%EB%A7%88%EC%8B%9C%EB%A9%B4-%EC%88%98%EB%AA%85%EC%9D%B4-%EC%96%BC%EB%A7%88%EB%82%98-%EC%A4%84%EC%96%B4%EB%93%A4%EA%B9%8C/
+[김종진] [오후 10:41] https://www.fnnews.com/news/201804140014531132
+[김종진] [오후 10:46] http://kr.people.com.cn/n3/2018/0802/c414197-9487153.html
+[김종진] [오후 11:10] package com.APP.MainHome;
+
+
+
+public class Main {
+
+   public static void main(String[] args) {
+   
+   double PerfectBreakTime; //술이 완전히 깨는데 걸리는 시간(단위 hour)      
+   double MaleWeight = 65; // 몸무게 
+   
+   if(MaleWeight>=50 && MaleWeight<60) {
+     System.out.println(PerfectBreakTime= 6.5);
+   }
+   
+   else if(MaleWeight>=60 && MaleWeight<70) {
+      System.out.println(PerfectBreakTime= 5.5);
+   }
+   
+   else if(MaleWeight>=70 && MaleWeight<80) {
+      System.out.println(PerfectBreakTime= 3.75);
+  ...
+[김종진] [오후 11:12] https://elwlsek.tistory.com/1520
+[김종진] [오후 11:12] 2번 참고자료
+[김종진] [오후 11:23] 광남고
+[김종진] [오후 11:45] https://edition.cnn.com/2018/04/13/health/too-much-alcohol-drinking-limits-shorter-life-expectancy/index.html
+[김종진] [오후 11:48] https://www.arkbh.com/alcohol/alcoholic/life-expectancy/
+2023년 1월 11일 수요일
+[김종진] [오전 12:04] package com.APP.MainHome;
+
+//주당 5~10잔을 마실 경우 6개월이 단축됐으며 
+// 하루에 1잔씩 마시면 6개월 단축
+
+
+//매주 알코올 350g 이상을 섭취하면 수명이 5년 단축된다는 결과를 도출했다.
+//하루에 50g씩 마시면 수명 5년 단축
+
+// drinking 100 to 200 grams was estimated to shorten
+//the life span of a 40-year-old by six months.
+//하루에 100g 마시면 6개월 정도 단축
+
+
+//Another major study in the UK/Europe found that consuming 10 to 15 alcoholic drinks every week may shorten an individual’s life expectancy by between one and two years, while those 
+//who drink more than 18 drinks a w...
+[김종진] [오전 11:14] 335 336 337 전부 따라쓰기
+[김종진] [오전 11:14] 내장객체 따라쓰는 것도 포함
+[김종진] [오후 6:06] package com.APP.Common;
+
+public class ThreadCustom implements GlobalConstants{
+    public static void main(String[] args) {
+        ThreadCustom threadCustom = new ThreadCustom();
+        threadCustom.Vital();
+    }
+
+    public int Vital() {
+        VitalThread vitalThread = new VitalThread();
+        vitalThread.start();
+        VitalConstants.setVitalValue(vitalThread.getVital());
+        return vitalThread.getVital();
+    }
+    class VitalThread extends Thread{ // 스레드 클래스 작성 : 상속 받아 만듦.
+     ...
+[김종진] [오후 9:18] <%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+ <form method="get" action="JoinServlet">
+이름 <input type="text" name="name"><br>
+주민등록번호 <input type="text" name="number"> - <input type="text" name="number"><br>
+아이디 <input type="text" name="id"><br>
+비밀번호 <input type="password" name="pw"><br>
+비밀번호 확인<input type="password" name="pwck"><br>
+이메일<input type...
+[김종진] [오후 9:18] package r;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/JoinServlet")
+public class JoinServlet extends HttpServlet {
+   private static final long serialVersionUID = 1L;
+       
+    
+    public JoinServlet() {
+        super();
+        
+    }
+
+/*    이름 <inpu...
+[김종진] [오후 9:25] package com.APP.Common;
+
+public class ThreadCustom implements GlobalConstants{
+    public static void main(String[] args) {
+        ThreadCustom threadCustom = new ThreadCustom();
+        threadCustom.Vital();
+    }
+
+    public int Vital() {
+        VitalThread vitalThread = new VitalThread();
+        vitalThread.start();
+        VitalConstants.setVitalValue(vitalThread.getVital());
+        return vitalThread.getVital();
+    }
+    class VitalThread extends Thread{ // 스레드 클래스 작성 : 상속 받아 만듦.
+        int vital;
+        
+        public int getVital() {
+            return vital;
+        }
+
+        public void setVital(int vital) {
+            this.vital = vital;
+            VitalConstants.setVitalValue(vital);
+        }
+    
+        public void run() { // 스레드 실행 시작(메인) 매서드 // 오버라이딩
+       
+            
+        
+        String HeartPumping[]= new String[999999];
+
+        for(int i=0; i<HeartPumping.length; i++){
+     Integer vital= (int) ((Math.random()*100)+70);
+            HeartPumping[i]=(Integer)vital;
+
+            for(int j=0; j<i; i++){
+                if(HeartPumping[i]-HeartPumping[j]>15){
+                  break;  
+                }
+            }
+        }
+
+                
+              
+                // 목적: 심장박동이 70갔다가 150가는건 막아야 한다. 최대 15까지로 맞춰보자
+                
+                try {
+                    setVital(vital);
+                    sleep(1000); // 1000 = 1초
+                    System.out.println(VitalConstants.getVitalValue());
+                }
+                catch (Exception e) {}
+            }
+        }
+    }
+
+
+2023년 1월 12일 목요일
+[김종진] [오전 10:21] package join;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/JoinServlet")
+public class JoinServlet extends HttpServlet {
+   private static final long serialVersionUID = 1L;
+       
+    
+    public JoinServlet() {
+        super();
+        
+    }
+
+/*    이름 <i...
+[김종진] [오후 12:55]  if(id.equals(request.getParameter("id"))&&
+[김종진] [오후 12:55] 이렇게 써야하지 그냥 equals는 안 먹는듯
+[김종진] [오후 1:00] <%
+ if(session.getAttribute("user")==null){
+    response.sendRedirect("Se.jsp");
+ }
+ else{%>
+  <%= session.getAttribute("user")%>님 안녕하십니까
+    <%
+ }
+%>
+[김종진] [오후 2:31] 
+        public void run() {// 스레드 실행 시작(메인) 매서드 // 오버라이딩
+
+            Integer heartPumping [] =new Integer[100];
+            for (int i=0; i<1000; i++) { //i는 횟수임 999번 근데 왜 배열이 안됨.
+                vital = (int)(Math.random()*100)+70;
+                 heartPumping[i]=vital;
+                 if(Math){
+                    continue;
+                 }
+[김종진] [오후 2:58]    if(id!=null && pw!=null) {
+         HttpSession session= request.getSession();
+         session.setAttribute("id1", id);
+      }
+      response.sendRedirect("Session.jsp");
+[김종진] [오후 3:30] 365p get set 나와있다
+[김종진] [오후 4:55] package com.APP.Common;
+
+public class ThreadCustom implements GlobalConstants{
+    public static void main(String[] args) {
+        ThreadCustom threadCustom = new ThreadCustom();
+        threadCustom.Vital();
+    }
+
+    public int Vital() {
+        VitalThread vitalThread = new VitalThread();
+        vitalThread.start();
+        VitalConstants.setVitalValue(vitalThread.getVital());
+        return vitalThread.getVital();
+    }
+    class VitalThread extends Thread{ // 스레드 클래스 작성 : 상속 받아 만듦.
+     ...
+[김종진] [오후 5:24] 
+            Integer heartPumping [] =new Integer[100];
+            for (int i=0; i<1000; i++) { //i는 횟수임 999번 근데 왜 배열이 안됨.
+                int min=70;
+                int b=100;
+                int max=min+b;
+                vital = (int)(Math.random()*b)+min;
+                
+                
+                 heartPumping[i]=vital;
+                  if(Math.abs(max-min)>15){
+                   continue;
+                  }
+            
+[김종진] [오후 6:21] https://trello.com/b/RQvNIwkZ/simple-project-board
+[김종진] [오후 6:21] 우리 조 트렐로
+[김종진] [오후 6:51]  for (int i=0; i<1000; i++) { //i는 횟수임 999번 근데 왜 배열이 안됨.
+                int min=70;
+                int b=100;
+                int max=min+b; //170
+                vital = (int)(Math.random()*b)+min;
+                
+                 
+                  if(vital<min || vital>max){
+                    continue;
+                  }
+                   if(Math.abs(vital-120)>20 ||(vital+10<95)||(vital-15>150)){
+                    continue;
+                   }
+            
+                
+[김종진] [오후 7:14] https://www.naayo.co.kr/%EC%88%A0%EC%9D%84-%EB%A7%8E%EC%9D%B4-%EB%A7%88%EC%8B%9C%EB%A9%B4-%EC%88%98%EB%AA%85%EC%9D%B4-%EC%96%BC%EB%A7%88%EB%82%98-%EC%A4%84%EC%96%B4%EB%93%A4%EA%B9%8C/
+[김종진] [오후 7:27] package com.APP.Drink;
+
+import com.APP.Common.GlobalConstants;
+import com.APP.Common.JPanelSize;
+import com.APP.NavBar.*;
+
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
+import java.awt.event.*;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Calendar;
+import static javax.swing.JLabel.*;
+
+public class AppDrink extends JFrame implements GlobalConstants {
+    // JPanel[] titleBorder;
+    // String[] title = {"[ Units ]","[ mL ]","[ Resu...
+[김종진] [오후 8:39] Microsoft Teams에서 '종진준형'에 가입하세요. 이 링크를 사용하여 앱을 무료로 다운로드하고 커뮤니티에 가입하세요: https://teams.live.com/l/community/FEAQP3tPry-qZoHzAI
+[김종진] [오후 10:37] https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001420110
+[김종진] [오후 10:38] 2. So we lost 2.75 years average life span of male and 1.08 years of female caused by alcohol in 2005.
+[김종진] [오후 10:39] https://www.reuters.com/article/us-health-alcohol-idUSKBN1I42H6
+[김종진] [오후 10:40] Drinking even more was associated with a greater risk of premature death. When people drank 200 grams to 350 grams a week of alcohol they had up to about a two-year reduction in life expectancy at age 40 compared with those who drank less than 100 grams weekly. And people who drank more than 350 grams a week had up to a five-year reduction in life expectancy at age 40.
+[김종진] [오후 11:21] 사진
+[김종진] [오후 11:21] https://docs.oracle.com/javase/tutorial/uiswing/components/textfield.html
+[김종진] [오후 11:47] package a;
+
+
+import java.awt.Color;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+
+public class Login extends JFrame{
+   JPanel jp = new JPanel(); 
+//   JButton jb = new JButton("버튼"); // 버튼 초기화
+   JLabel insertID = new JLabel("아이디");
+   JTextField jtextfield1 = new JTextField(20);
+    JLabel insertpassword= new JLabel("비밀번호 ");
+   JTextField jtextfield2 = new JTextField(20); 
+   JButton jb1= new JBut...
+2023년 1월 13일 금요일
+[김종진] [오전 3:29] package a;
+
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+
+public class Login extends JFrame{
+
+
+   
+   public Login() {
+   
+   }
+
+   public static void main(String[] args){
+      
+      //기초공사
+      JFrame jframe= new JFrame();
+      jframe.setTitle("LOG IN");
+      jframe.setSize(540,750);
+      jframe.setVisible(true);
+      jframe.setLocationRelativeTo(null);
+      jframe.setDefaultCloseOperation(JFrame.EXIT_ON...
+[김종진] [오전 9:48] sdakfjasldkfjsldkajflksadjfklas-patch-7
+[김종진] [오전 10:46] 깃허브가 개발자들의 sns로 쓰임
+[김종진] [오후 12:01] package G;
+
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+
+public class Main extends JFrame{
+
+
+   
+   public Main() {
+   
+   }
+
+   public static void main(String[] args){
+      
+      //기초공사
+      JFrame jframe= new JFrame();
+      jframe.setTitle("LOG IN");
+      jframe.setSize(540,750);
+      jframe.setVisible(true);
+      jframe.setLocationRelativeTo(null);
+      jframe.setDefaultCloseOperation(JFrame.EXIT_ON_C...
+[김종진] [오후 5:21] https://www.nature.com/articles/s41598-022-11427-x
+[김종진] [오후 5:42] [김현오] [오후 5:41] https://github.com/singateco/JavaCalorieCounterGUI/issues
+[김종진] [오후 5:42] 저기가 코드질문하는방
+[김종진] [오후 5:55] JFrame은 LayoutManager를 지정하지 않으면 default 값이 BorderLayout이 됩니다.
+지금처럼 setBounds 메소드로 크기를 지정할 때에는 LayoutManager가 자동으로 위치를 조정하지 않도록 LayoutManager를 없애야합니다.
+[김종진] [오후 6:04] 처음에 실행하면 빈 공간이 열리고 빈 공간을 하나씩 눌러줘야만 버튼과 필드가 뜹니다. 원인을 아시는 분 계실까요?
+[김종진] [오후 6:15] double lifespan=0;
+
+                if(resultBAC<0.05){
+                     lifespan= -0.6;
+                 }
+
+                 else if(resultBAC<0.10){
+                    lifespan=-1;
+                 }
+
+                 else if(resultBAC<0.15){
+                    lifespan=-1.5;
+                 }
+
+
+                 else if(resultBAC<0.20){
+                    lifespan=-2;
+                 }
+
+
+                 else if(resultBAC<0.25){
+                    lifespan=-2.5;
+                 }
+
+
+...
+[김종진] [오후 6:17] 기본 패널인 jframe에 모든 요소가 추가된 후에 보여줘야 하는데 jframe에 버튼을 다 더하기도 전에 보여주고 있기 때문입니다.
+
+jframe.setVisible(true); 을 마지막 줄로 옮기세요.
+
+@sdakfjasldkfjsldkajflksadjfklas
+
+ 
+[김종진] [오후 6:29] package com.APP.Drink;
+
+import com.APP.Common.GlobalConstants;
+import com.APP.Common.JPanelSize;
+import com.APP.NavBar.*;
+
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
+import java.awt.event.*;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Calendar;
+import static javax.swing.JLabel.*;
+
+public class AppDrink extends JFrame implements GlobalConstants {
+    // JPanel[] titleBorder;
+    // String[] title = {"[ Units ]","[ mL ]","[ Resu...
+2023년 1월 15일 일요일
+[김종진] [오전 9:54] // 상대경로: 파일이 없는 다른 사람들을 위해 추상적으로 표현해준것(배려)
+// 상대경로 예시:c/users/app/com/file.java
+// ../../
+// ../../com2
+// c/users/app/com2
+
+//절대경로: c/users/app/com2 이런식으로 내가 아는 일반적인 주소경로로 하나임
+//단 상대방이 그 파일이 없는 경우에는 곤란해질 수 있음 
+[김종진] [오후 12:32] package com.APP;
+
+import java.sql.*;
+
+public class SQLSample {
+    public static void main(String[] args) {
+       try {
+         // ConnectionManager를 만들고 .get() function으로 Connection을 만듭니다.
+         ConnectionManager connectionManager = new ConnectionManager();
+         Connection conn = connectionManager.get();
+
+         // SQL 처리를 위한 PreparedStatement와 ResultSet을 준비합니다.
+         PreparedStatement statement = null;
+         ResultSet result = null;
+
+         String queryString = "SELECT * FRO...
+[김종진] [오후 1:52] package com.APP.UserInfo;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.EventQueue;
+import com.APP.NavBar.*;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.APP.ConnectionManager;
+import com.APP.Common.GlobalConstants;
+import com.APP.Common.JPanelSize;
+import com.APP.MainHome.AppMain;
+
+public class Ap...
+[김종진] [오후 2:11] 사진
+[김종진] [오후 3:40] insert into cal_user values('1', 'jongjin', 'M', '21', '177', '100', '70', '1500');
+insert into cal_user values('2', 'jongjinKIM', 'F', '27', '187', '95', '78', '3000');
+insert into cal_user values('3', 'cocacola', 'M', '32', '163', '68', '100', '1453');
+[김종진] [오후 4:29] if (obj instanceof JButton){
+            JButton eventBtn = (JButton)obj;
+    
+            if(eventBtn.equals(btnSubmit)) {   
+
+     
+                // for (int i=0; i<TitleBorder.length; i++) {
+                //     if (i ==1) {
+                //         UserInputTxt.getUserInputTxt().set(i, (String)UserSex.getSelectedItem());
+                //     } else {
+                //         UserInputTxt.getUserInputTxt().set(i, UserInputField[i].getText());
+                //     }
+               ...
+[김종진] [오후 4:30]      try {
+         // ConnectionManager를 만들고 .get() function으로 Connection을 만듭니다.
+         ConnectionManager connectionManager = new ConnectionManager();
+         Connection conn = connectionManager.get();
+
+         // SQL 처리를 위한 PreparedStatement와 ResultSet을 준비합니다.
+         PreparedStatement statement = null;
+         ResultSet result = null;
+
+         String queryString = "SELECT * FROM emp";
+         statement = conn.prepareStatement(queryString);
+
+         // Select문은 executeQuery(), Insert,...
+[김종진] [오후 7:40] package com.APP.UserInfo;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.EventQueue;
+import com.APP.NavBar.*;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.util.Properties;
+import oracle.jdbc.OracleConnection;
+import oracle.jdbc.datasource.OracleDataSource;
+
+import ...
+[김종진] [오후 8:46]  insertPreparedStatement.setString(1, user_id);
+                    insertPreparedStatement.setString(2, user_name);
+                    insertPreparedStatement.setString(3, food_metricname);
+                    insertPreparedStatement.setInt(4, Integer.parseInt(food_metricgrams));
+                    insertPreparedStatement.setDouble(5, Double.parseDouble(food_calorie));
+                    insertPreparedStatement.setDouble(6, Double.parseDouble(food_carb));
+                    insertPreparedSt...
+[김종진] [오후 8:46] 이게 삽입하는 코드다
+[김종진] [오후 9:20] try {
+        // Connection 생성
+        ConnectionManager connectionManager = new ConnectionManager();
+        Connection conn = connectionManager.get();
+        
+        // SQL 처리를 위한 PreparedStatement와 ResultSet을 준비합니다.
+        PreparedStatement statement = null;
+        ResultSet result = null;
+     
+
+        // SQL 쿼리문을 준비
+        String queryString = "SELECT * FROM cal_user";
+        statement = conn.prepareStatement(queryString);
+
+        // 쿼리 결과를 받아옴
+        result = statement.executeQuer...
+[김종진] [오후 11:16] package com.APP.UserInfo;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.EventQueue;
+import com.APP.NavBar.*;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.APP.ConnectionManager;
+import com.APP.Common.GlobalConstants;
+import com.APP.Common.JPanelSize;
+import com.APP.MainHome.AppMain;
+
+public class Ap...
+2023년 1월 16일 월요일
+[김종진] [오전 12:17] package com.APP.UserInfo;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.EventQueue;
+import com.APP.NavBar.*;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.APP.ConnectionManager;
+import com.APP.Common.GlobalConstants;
+import com.APP.Common.JPanelSize;
+import com.APP.MainHome.AppMain;
+
+public class Ap...
+[김종진] [오전 12:19] --create or replace trigger cal_user_tri
+--
+--after insert on cal_user
+--
+--for each row
+--
+--begin 
+----
+--
+--  end;
+--
+--insert into cal_user values('1', 'jongjin', 'M', '21', '177', '100', '70', '1500');
+--insert into cal_user values('2', 'jongjinKIM', 'F', '27', '187', '95', '78', '3000');
+--insert into cal_user values('3', 'cocacola', 'M', '32', '163', '68', '100', '1453');
+--
+--
+--  select * from cal_user;
+--
+[김종진] [오전 12:20] --create or replace procedure proc_update(
+--cId in cal_user.user_id%type,
+--cName in cal_user.user_name%type,
+--cGender in cal_user.user_gender%type,
+--cAge in cal_user.user_age%type,
+--cHeight in cal_user.user_height%type,
+--cWeight in cal_user.user_weight%type,
+--cWeiGoal in cal_user.user_wei_goal%type,
+--cCalGoal in cal_user.user_cal_goal%type
+--)
+--
+--is 
+--begin
+--update cal_user set user_gender=cGender,user_age=cAge, user_height=cHeight, user_weight=cWeight,user_wei_goal=cWeiGoal,user_cal...
+[김종진] [오전 10:55] one drive 끄면 컴터 ㅈㄴ빠라짐
+[김종진] [오전 11:56] hidden으로 넘김 id를
+
+저장공간이 없으면 반환형은 void 이다
+
+
+노란줄은 만든 변수를 쓰지 않아서 생기는 상황이다
+[김종진] [오후 12:31] -다른건 몰라도 게시판은 반드시 짤 줄 알아야 한다
+[김종진] [오후 12:31] 회사 면접에서도 게시판 짜라고 함
+[김종진] [오후 1:15] Connection con;
+PreparedStatement pstmt;
+ResultSet rs;
+[김종진] [오후 1:15] 이건 db연동 핵심코드니 무조건 알아야 함
+[김종진] [오후 3:02] 407p 부터 시작
+
+155번째 context에서 맨 끝에 ? 옆에 / 이거 지우셈
+그리고 156번째 줄에
+156 <Resource auth= "Container" driverClassName="oracle.jdbc.driver.OracleDriver"
+157  name= "jdbc/pool" password= "jongjin0829@" type="javax.sql.DataSource"
+158  url= "jdbc:oracle:thin:@192.168.25.11 : 1521/xe" username="종진"/> 
+159   </Context>
+
+(155번째에서 종진옆에 있는
+/이거 지우라는 뜻임)
+[김종진] [오후 4:12]  <% 
+   BoardDAO bdao= new BoardDAO();
+ bdao.insertBoard(boardbean); // 폼에 적었던 값이 테입르에 추가된다.
+ response.sendRedirect("BoardList.jsp"); //페이지가 이동
+ %>
+[김종진] [오후 4:12] 이거 반드시 기억해야 함
+[김종진] [오후 4:48] num    subject              ref  re_step  re_level
+1    겨울이네요~(지원)       1      1        1
+2    곧봄이에요~(준형)       2      1        1
+3    [rep]놀고싶어요(건용)   1      2        3
+4    [rep]너무추워요(한희)   1      2        2
+
+
+
+2    곧봄이에요~(준형)          2      1        1
+1    겨울이네요~(지원)          1      1        1
+4       [rep]너무추워요(한희)   1      2        2
+3       [rep]놀고싶어요(건용)   1      2        3
+[김종진] [오후 6:12] select* from cal_user;
+
+
+
+-- 시퀀스 생성
+create sequence cal_sequence;
+
+
+select * from cal_sequence;
+-- 새로운 정보 추가할 때마다 발동하는 트리거
+create or replace trigger cal_user_trigger
+   before insert on cal_user
+   for each row
+begin
+   select cal_sequence.nextval+20230116
+   into :new.user_id
+   from dual;
+end;
+/
+[김종진] [오후 6:25] NavigationController.setCurrentWindow(0);
+          System.out.println(NavigationController.getCurrentWindow());
+          PageOpen pageOpen = new PageOpen();
+[김종진] [오후 7:39] public class UserInputTxt {
+
+    // 2) ArrayList
+    static ArrayList<String> userInputTxt = new ArrayList<>(Arrays.asList("Joonhyeong", "Male", "24", "177", "78", "100", "1500"));
+
+    // UserInputTxt(ArrayList<String> userInputTxt) {
+    //   this.userInputTxt=userInputTxt;
+    // }
+
+    public void setUserInputTxt(String user_name, String user_gender, String user_age, String user_height, String user_weight, String user_wei_goal, String user_cal_goal){
+      this.userInputTxt== new ArrayList<>...
+[김종진] [오후 7:39] getUserInputTxt().set(index, value);
+private static ArrayList<String> userInfoList = UserInputTxt.getUserInputTxt();
+userInfoList.set(index, value);
+[김종진] [오후 7:39] 이것만 바꿔주면 된다
+[김종진] [오후 8:03] package com.APP.UserInfo;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.EventQueue;
+import com.APP.NavBar.*;
+import com.APP.NavBar.NavWindowCtrl.NavigationController;
+import com.APP.NavBar.NavWindowCtrl.PageOpen;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.APP.ConnectionManager;
+import com.APP.Com...
+[김종진] [오후 8:59]   public class UserInputTxt {
+    // 2) ArrayList
+    public static ArrayList<String> userInputTxt = new ArrayList<>(Arrays.asList("Joonhyeong", "M", "24", "177", "78", "100", "1500"));
+    UserInputTxt(ArrayList<String> userInputTxt) {
+      this.userInputTxt=userInputTxt;
+    }
+
+    public static ArrayList<String> getUserInputTxt() {
+      return userInputTxt;
+    }
+  }
+[김종진] [오후 8:59]  UserInputTxt.userInputTxt.set(1, user_name);
+                UserInputTxt.userInputTxt.set(2, user_gender);
+                UserInputTxt.userInputTxt.set(3, user_age);
+                UserInputTxt.userInputTxt.set(4, user_height);
+[김종진] [오후 9:41] package com.APP.Common;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+
+import java.awt.Color;
+
+public interface GlobalConstants{
+  String name = "Chilly Billy";
+  String address = "10 Chicken head Lane";
+
+
+  String AdminUserIcon = "src/img/corong_profile.png";
+
+  String navBtnHome = "src/img/nav_home.png";
+  String navBtnDayCal = "src/img/nav_cal.png";
+  String navBtnFood = "src/img/search_icon.png";
+  String navBtnCalendar = "src/img/nav_calendar.png";
+  String...
+[김종진] [오후 9:43] UserInputTxt.userInputTxt.set(1, user_name);
+                UserInputTxt.userInputTxt.set(2, user_gender);
+                UserInputTxt.userInputTxt.set(3, user_age);
+                UserInputTxt.userInputTxt.set(4, user_height);
+                UserInputTxt.userInputTxt.set(5 ,user_weight);
+                UserInputTxt.userInputTxt.set(6, user_wei_goal);
+                UserInputTxt.userInputTxt.set(7, user_cal_goal);
+[김종진] [오후 10:12] package com.APP.UserInfo;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.EventQueue;
+import com.APP.NavBar.*;
+import com.APP.NavBar.NavWindowCtrl.NavigationController;
+import com.APP.NavBar.NavWindowCtrl.PageOpen;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.APP.Connectio...
+[김종진] [오후 10:13] package com.APP.Common;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+
+import java.awt.Color;
+
+public interface GlobalConstants{
+  String name = "Chilly Billy";
+  String address = "10 Chicken head Lane";
+
+
+  String AdminUserIcon = "src/img/corong_profile.png";
+
+  String navBtnHome = "src/img/nav_home.png";
+  String navBtnDayCal = "src/img/nav_cal.png";
+  String navBtnFood = "src/img/search_icon.png";
+  String navBtnCalendar = "src/img/nav_calendar.png";
+  String...
+2023년 1월 17일 화요일
+[김종진] [오전 1:35] package com.APP.UserInfo;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.EventQueue;
+import com.APP.NavBar.*;
+import com.APP.NavBar.NavWindowCtrl.NavigationController;
+import com.APP.NavBar.NavWindowCtrl.PageOpen;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.APP.Connectio...
+[김종진] [오전 1:35] package com.APP.Common;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+
+import java.awt.Color;
+
+public interface GlobalConstants{
+  static int calorieGoal = 1500;
+
+  String name = "Chilly Billy";
+  String address = "10 Chicken head Lane";
+
+
+  String AdminUserIcon = "src/img/corong_profile.png";
+
+  String navBtnHome = "src/img/nav_home.png";
+  String navBtnDayCal = "src/img/nav_cal.png";
+  String navBtnFood = "src/img/search_icon.png";
+  String navBtnCalendar = "s...
+[김종진] [오전 1:35] package com.APP.MainHome;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.border.BevelBorder;
+import java.awt.EventQueue;
+import com.APP.NavBar.*;
+import com.APP.NavBar.NavWindowCtrl.NavigationController;
+import com.APP.NavBar.NavWindowCtrl.PageOpen;
+import com.APP.UserInfo.AppUserInfo;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.APP.Common.GlobalConstants;...
+[김종진] [오전 1:49] 70번째줄 public class UserInputTxt 부터 81번째 줄 //#### 전 마지막 괄호인 } 까지 전부 
+[김종진] [오전 1:49] public class UserInputTxt {
+    // 2) ArrayList
+    public static ArrayList<String> userInputTxt = new ArrayList<>(Arrays.asList("Joonhyeong", "M", "24", "177", "78", "100", "1500"));
+
+    public static ArrayList<String> getUserInputTxt() {
+      return userInputTxt;
+    }
+  }
+[김종진] [오전 1:49] 이걸로 대체
+[김종진] [오전 1:54] 165번째 줄 usersex부분 
+[김종진] [오전 1:54] UserSex = userInfoList.get(1);
+    UserAge = userInfoList.get(2);
+    UserHeight = userInfoList.get(3);
+[김종진] [오전 1:54] 이걸로 대체
+[김종진] [오전 1:59] 99번째 줄 
+[김종진] [오전 1:59]  String[] UserTitle = {"이름", "성멸", "나이", "키", "몸무게", "목표 체중", "목표 칼로리"};
+[김종진] [오전 1:59] 이거
+[김종진] [오전 1:59]  String[] UserTitle = {"Name", "Sex", "Age", "Height", "Weight", "Goal of Weight", "Goal of Calories"};
+[김종진] [오전 1:59] 이거로 변경
+[김종진] [오전 2:00] 130번째 줄 
+[김종진] [오전 2:00] eferredS
+[김종진] [오전 2:00]  UserSex.setPreferredSize(new Dimension(300,20));
+[김종진] [오전 2:00] 이거 300을 350으로 변경
+[김종진] [오전 2:02] 189번째 줄
+[김종진] [오전 2:02]    user_id = "9999";
+                user_name = UserInputField[0].getText();
+                user_gender = (String)UserSex.getSelectedItem();
+                user_age = UserInputField[2].getText();
+                user_height = UserInputField[3].getText();
+                user_weight = UserInputField[4].getText();
+                user_wei_goal = UserInputField[5].getText();
+                user_cal_goal = UserInputField[6].getText();
+                
+[김종진] [오전 2:02]   user_name = UserInputField[0].getText();
+                user_gender = (String)UserSex.getSelectedItem();
+                user_age = UserInputField[2].getText();
+                user_height = UserInputField[3].getText();
+                user_weight = UserInputField[4].getText();
+                user_wei_goal = UserInputField[5].getText();
+                user_cal_goal = UserInputField[6].getText();
+[김종진] [오전 2:02] 이거로 대체
+[김종진] [오전 2:02]              user_id = "9999";
+                user_name = UserInputField[0].getText();
+                user_gender = (String)UserSex.getSelectedItem();
+                user_age = UserInputField[2].getText();
+                user_height = UserInputField[3].getText();
+                user_weight = UserInputField[4].getText();
+                user_wei_goal = UserInputField[5].getText();
+                user_cal_goal = UserInputField[6].getText();
+                
+                UserInputTxt.getUs...
+[김종진] [오전 2:02] 이거
+[김종진] [오전 2:03]    user_name = UserInputField[0].getText();
+                user_gender = (String)UserSex.getSelectedItem();
+                user_age = UserInputField[2].getText();
+                user_height = UserInputField[3].getText();
+                user_weight = UserInputField[4].getText();
+                user_wei_goal = UserInputField[5].getText();
+                user_cal_goal = UserInputField[6].getText();
+            String insertQue = "insert into cal_user(user_name,user_gender,user_age,user_height...
+[김종진] [오전 2:03] 이거로 대체
+[김종진] [오전 2:03] 206번째 줄
+[김종진] [오전 2:03]   insertPreparedStatement.setString(1, user_id);
+                    insertPreparedStatement.setString(2, user_name);
+                    insertPreparedStatement.setString(3, user_gender);
+                    insertPreparedStatement.setString(4, user_age);
+                    insertPreparedStatement.setString(5, user_height);
+                    insertPreparedStatement.setString(6, user_weight);
+                    insertPreparedStatement.setString(7, user_wei_goal);
+                    insertPr...
+[김종진] [오전 2:03] 이거
+[김종진] [오전 2:04]  // insertPreparedStatement.setString(1, user_id);
+                    insertPreparedStatement.setString(1, user_name);
+                    insertPreparedStatement.setString(2, user_gender);
+                    insertPreparedStatement.setString(3, user_age);
+                    insertPreparedStatement.setString(4, user_height);
+                    insertPreparedStatement.setString(5, user_weight);
+                    insertPreparedStatement.setString(6, user_wei_goal);
+                    insert...
+[김종진] [오전 2:04] 이거로 대체
+[김종진] [오전 2:04] 그리고 230번째 줄 con.close()밑에
+[김종진] [오전 2:05]  NavigationController.setCurrentWindow(0);
+                    System.out.println(NavigationController.getCurrentWindow());
+                    PageOpen pageOpen = new PageOpen();
+[김종진] [오전 2:05] 이거 추가 
+[김종진] [오전 2:33] insertPreparedStatement 이게 db에 던지는 코드임
+[김종진] [오전 2:33] 예시
+[김종진] [오전 2:33] insertPrepareStatement.setString(1,username)
+[김종진] [오전 2:46] 앱 메인에서 안 바뀌는건 page open 문제임
+[김종진] [오전 2:53] buttonchange= 정보수정이다
+[김종진] [오전 3:10] 모르면 btn.addActionListener(this)하면된다
+[김종진] [오전 3:10] 저 this가 정말 많이 쓰인다
+[김종진] [오전 3:11] addActionListener(this)
+[김종진] [오전 3:11] 이거 꼭 하고 그 다음에 오버라이딩 하자
+[김종진] [오전 3:12] 320번째 버튼 테이블 칼로리 앱으로 가야 하는데 다른데로 감
+[김종진] [오전 3:12] 알긴 아는데 굉장히 구찮음
+[김종진] [오전 3:12] appmian 320번째 줄
+[김종진] [오후 3:42] https://www.boostcourse.org/cs112
+2023년 1월 18일 수요일
+[김종진] [오전 9:37] - user입장에서 이 웹을 사용하고 싶은가? 10점
+
+- 디자인이 깔끔하고 보기 편한 디자인인가? 10점
+
+- 시연을 마친후 질문 시 발표자가 막히는 부분이 있는가? 10점
+
+- 시연할 때 프로그램이 에러없이 제대로 돌아가는가? 10점
+
+- 웹 기능이 개발자입장에서 써보고싶은가? 10점
+[김종진] [오전 10:27]  https://github.com/Zinzza-Song/Solsinsa
+[김종진] [오후 4:44] 싱글톤에 대해서 설명할 수 있어야 함
+[김종진] [오후 6:22] 
+boardbean: num, writer, email, subject, password, reg_date, ref, re_step, re_level,
+readcount, content
+
+들을 선언했고 얘네를 get set 시켜놨음
+
+
+
+boarddao: 
+
+connection, preparedstatement, resultset 선언해서 db랑 연동
+
+
+public void getCon()
+
+: java:comp/env와 jdbc/pool 에 있는 친구들 가져옴 
+
+
+public void insertBoard 
+
+댓글과 덧글 그룹 선언과 초기화
+
+얘네 중에 가장 큰 ref 값 가져오라고 함 
+
+
+또 sql 안에 있는 writer 이런애들을 다 불러옴 
+
+
+
+public vector
+
+27명의 글이 db에 저장되어 있고 저장되어 있는 값을 자바빈에 저장할거임
+
+또 걔네들 가져옴 
+
+
+public int getAllCount
+
+게시글 총합을 다 가져옴 
+
+public BoardBean...
+2023년 1월 19일 목요일
+[김종진] [오전 7:15] Java-test 파일
+
+
+BoardBean
+:num, writer, email, subject, password, reg_date, ref, re_step, re_level,
+readcount, content 얘네들을 선언했고 얘네를 get set 시켜놨음
+나중에 언제든 써먹기 위해 구현
+
+
+BoardDAO:
+BoardBean에 있는 변수들을 아래쪽 webapp에서 전부 구현했고
+얘네들을 실행하기 위해 DB가 반드시 필요한데,
+Connection, PreparedStatement,ResultSet을 통해서 DB와 연동 후 
+전부 try catch로 묶고 구현, 이 게시판의 핵심 코드
+
+
+
+
+webapp 파일 
+
+1. BoardForm 
+: 게시글 작성 형식을 코드로 구현함
+작성자, 제목, 이메일, 비밀번호, 글 내용을 입력할 수 있게 구현
+클릭하면 BoardList로 이동
+
+
+2.BoardIn 
+작성한 게시글을 BoardList에서 클릭하면 나오는 폼
+작성자, 작성날짜, 조회수 등...
+[김종진] [오전 9:10] Java-test 파일
+
+
+BoardBean
+:num, writer, email, subject, password, reg_date, ref, re_step, re_level,
+readcount, content 얘네들을 선언했고 얘네를 get set 시켜놨음
+나중에 언제든 써먹기 위해 구현
+
+
+BoardDAO:
+BoardBean에 있는 변수들을 아래쪽 webapp에서 전부 구현했고
+얘네들을 실행하기 위해 DB가 반드시 필요한데,
+Connection, PreparedStatement,ResultSet을 통해서 DB와 연동 후 
+전부 try catch로 묶고 구현, 이 게시판의 핵심 코드
+
+
+
+webapp 파일 
+
+1. BoardForm 
+: 게시글 작성 형식을 코드로 구현함
+작성자, 제목, 이메일, 비밀번호, 글 내용을 입력할 수 있게 구현
+클릭하면 BoardList로 이동
+
+
+2.BoardIn 
+작성한 게시글을 BoardList에서 클릭하면 나오는 폼
+작성자, 작성날짜, 조회수 등이...
+[김종진] [오전 9:48] <Context docBase="A0324" path="/A0324" reloadable="true" source="org.eclipse.jst.jee.server:A0324">
+
+       <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" name="jdbc/pool" password="Pink5072" type="javax.sql.DataSource" url="jdbc:oracle:thin:@172.16.14.12:1521/xepdb1" username="ne"/>
+
+      </Context>
+[김종진] [오후 2:16] jsp => servlet
+[김종진] [오후 2:16] //BoardCheckPassAction.java => {checkSuccess.jsp / boardCheckPass.jsp} / BoardDAO.java / BoardVO.java
+[김종진] [오후 2:16] //BoardCheckPassFormAction.java => boardCheckPass.jsp
+[김종진] [오후 2:16] BoardDeleteAction.java => BoardListAction.java / BoardDAO.java
+[김종진] [오후 2:16] BoardListAction.java => boardList.jsp / BoardDAO.java 
+[김종진] [오후 2:16] BoardUpdateAction.java => BoardListAction.java / BoardDAO.java / BoardVO.java
+[김종진] [오후 2:17] BoardUpdateFormAction.java => boardUpdate.jsp / BoardDAO.java / BoardVO.java
+[김종진] [오후 2:17] BoardViewAction.java => boardView.jsp / BoardDAO.java / BoardVO.java
+[김종진] [오후 2:17] BoardWriteAction.java => BoardListAction.java / BoardDAO.java / BoardVO.java
+[김종진] [오후 2:17] BoardWriteFormAction.java => boardWrite.jsp
+[김종진] [오후 2:34] jsp에서 서블릿으로 보낼때 커맨드 달려있어야하고
+.java에서 .jsp로 보낼 때 디스패치 달려있어야해요
+
+오케
+[김종진] [오후 2:37] //url을 dispatcher로 보내는데 저기 위에 boardlist라 나와있으니 
+      //boardlist로 이동하는 것이다.
+       //request.setAttribute("boardlist",boardlist_)
+      //BoardListAction page임
+[김종진] [오후 2:38] //BoardListAction이라는 새 파일을 생성해서 execute로 호출시킨다.
+      //즉 listaction을 호출한다는 뜻
+       //BoardWriteAction page임
+[김종진] [오후 2:53] jsp는 css쪽으로 가지 못한다
+[김종진] [오후 2:53]  css와 jsp만 가능임
+[김종진] [오후 3:04] 자바 import 해서 새 파일 가져오는법
+[김종진] [오후 3:04] import-> general -> Existing Projects into Workspace
+[김종진] [오후 3:09] 
+      <Context docBase="A0116_3" path="/A0116_3" reloadable="true" source="org.eclipse.jst.jee.server:A0116_3">
+       <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" name="jdbc/pool" password="Sapiter707#" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521/xe" username="system"/>
+
+      </Context>
+[김종진] [오후 3:11] create table board(
+
+num number(5)primary key,
+pass varchar2(30),
+name varchar2(30),
+email  varchar2(30),
+title  varchar2(50),
+content  varchar2(1000),
+readcount number(4) default 0,
+writedate DATE default sysdate);
+
+
+
+create sequence bo_seq start with 1 increment by 1; --increment는 중괄호임
+
+
+
+insert into board(num,name,email,pass,title,content) values
+(bo_seq.NEXTVAL, '윤신요','aa@naver.com','1234','첫방문','안녕');
+
+
+select * from board;
+[김종진] [오후 3:43] 파일: 팀플 ncs.pdf
+[김종진] [오후 6:22] Board.html
+[김종진] [오후 6:26] <!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+#a{
+  text-align: center;
+  font-size: 50px;
+
+  background-color: green;
+  background-color: 100px;
+  margin-top: 20px;
+}
+
+
+*{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+ 
+.win{
+  width: 100%;
+  overflow: hidden;
+
+  
+
+}
+.win > li {
+  width: 25%; /*20*5=100%*/
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  background-color: skyblue;
+
+}
+
+.win a {
+  color: #fff;
+}
+
+.winner > li {
+  line-height: 50px;
+  ...
+[김종진] [오후 6:26] practice.html
+[김종진] [오후 6:26] <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+
+.menu {
+  width: 800px;
+  overflow: hidden;
+  margin: 150px auto;
+}
+.menu > li {
+  width: 20%; /*20*5=100%*/
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  background-color: #5778ff;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.submenu > li {
+  line-height: 50px;
+  background-color: #94a9ff;
+}
+
+.submenu {
+  height: 0; /*ul의 높이를 안보이게 처리*/
+  overflow: hidden...
+[김종진] [오후 6:26] move.html
+[김종진] [오후 6:26] <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+#arg{
+    font-size: 20px;
+    color: #75AADB;
+    text-align: center;
+
+}
+
+#bra{
+    font-size: 20px;
+    color:#FEDF00;
+}
+
+#eng{
+    font-size: 20px;
+    color:#CF142B;
+}
+
+
+#fra{
+    font-size: 20px;
+    color:#051440;
+}
+
+
+#ger{
+    font-size: 20px;
+    color:black;
+
+}
+#ita{
+font-size: 20px;
+color: #009246;
+
+}
+
+#esp{
+    font-size: 20px;
+    color:#AD1519;
+}
+
+
+#uru{
+    font-size: 20px;
+    color:#0035A8;
+}
+
+
+    </style>
+</head>
+<body>
+    <d...
+[김종진] [오후 6:26] move2.html
+[김종진] [오후 6:26] <!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    1930 월드컵<br>
+    1934 월드컵<br>
+    1938 월드컵<br>
+    1950 월드컵<br>
+    1954 월드컵<br>
+    1958 월드컵<br>
+    1962 월드컵<br>
+    1966 월드컵<br>
+    1970 월드컵<br>
+    1974 월드컵<br>
+    1978 월드컵<br>
+    1982 월드컵<br>
+    1986 월드컵<br>
+    1990 월드컵<br>
+    1994 월드컵<br>
+    1998 월드컵<br>
+    2002 월드컵<br>
+    2006 월드컵<br>
+    2010 월드컵<br>
+    2014 월드컵<br>
+    2018 월드컵<br>
+    2022 월드컵
+
+</body>
+</html>
+[김종진] [오후 6:26] move3.html
+[김종진] [오후 6:26] <!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    월드컵 최다 우승팀 : 브라질 5회 <img src="C:/Users/soldesk/Desktop/13.svg" width="20px" height="20px">(1958,1962,1970,1994,2002)<br>
+    월드컵 최다 준우승팀 : 독일 4회(1966,1982,1986,2002)<br>
+    월드컵 최다 골: 미로슬라프 클로제(16골)<br>
+
+</body>
+</html>
+[김종진] [오후 6:26] move4.html
+[김종진] [오후 6:26] <!DOCTYPE html>
+<html lang="en">
+<head>
+   승부차기 승률
+</head>
+<body>
+    
+</body>
+</html>
+[김종진] [오후 6:27] 가서    
+HTML 다른 페이지의 원하는 위치로 이동하는 방법 이거 검색해야함
+[김종진] [오후 6:29] Eclipse에 파일을 삽입할 때에는 import를 해야한다.
+
+그래야 넣을 수 있음
+
+
+BoardDAO를 자바빈이라고 한다.
+[김종진] [오후 6:50] <a href="#" onclick="window.open('move3.html')">각종 월드컵 기록들</a>
+2023년 1월 20일 금요일
+[김종진] [오후 12:15] <%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+
+</style>
+</head>
+
+
+
+<link type="text/css" rel="stylesheet" href="./css/script.css">
+<body>
+           
+<center>
+
+<form action="loginProc.jsp">
+
+
+<h1> 로그인</h1>
+<div class="a">
+아이디 <input type="text">&nbsp;&nbsp;<input type="button" name="id" value="ID 중복확인">
+비밀번호<input type="password" name="pwd"> <br><br><br>
+                     
+               ...
+[김종진] [오후 12:15] @charset "UTF-8";
+body{
+   margin: 0;
+   padding: 0;
+}
+.size{
+   weight: 800px;
+   height: 450px;
+}
+.size span{
+   float: left;
+}
+
+
+.login{
+   
+   border:2px solid gold;
+   margin:300px auto; 
+   width:50%; 
+   solid:skyblue;
+}
+
+[김종진] [오후 1:18] <%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+#a{
+margin: 100px 0px 0px;
+}
+
+
+</style>
+</head>
+<body>
+
+<center id="a">
+
+<tr><th>우편번호 입력</th><th colspan="3"></th></tr>
+
+
+
+<th colspan="3"> <input type="text"  name="zipcode" placeholder="우편번호 입력"> 
+<a href="#" onclick="INSERT INTO tblZipcode(zipcode,area1,area2,area3) " 
++"VALUES (?, ?, ?, ?);">우편번호검색</a><br><br...
+[김종진] [오후 3:09] <link type="text/css" rel="stylesheet" href="./css/script.css">
+[김종진] [오후 3:09] css로 보내는 코드이다
+[김종진] [오후 3:09] 여기서 css를 전부 관리하기 때문에 바꾸기도 편하다
+[김종진] [오후 4:18] @charset "UTF-8";
+.size{
+   weight: 800px;
+   height: 450px;
+}
+.formtr{
+   height: 40px;  
+   text-align:center;
+}
+.memberbodytd{
+   float: left;
+   width: 300px;
+
+}
+.membertitletd{
+   width: 50%;
+   
+}
+
+
+.membertable{
+  border: 2px solid gold;
+  text-align:center;
+  margin: 350px 500px 500px;
+  background-color:skyblue;
+  
+  
+
+  
+}
+
+  tr{
+    border: 1px;
+  }
+ 
+
+#login{
+   border:2px solid gold;
+   margin:300px auto; 
+   width:50%; 
+   background-color:skyblue;
+
+}
+
+#b{
+   bgcolor: skyblue;
+   b...
+[김종진] [오후 4:39] @charset "UTF-8";
+.size{
+   weight: 800px;
+   height: 450px;
+}
+.formtr{
+   height: 40px;  
+   text-align:center;
+}
+.memberbodytd{
+   float: left;
+   width: 300px;
+
+}
+.membertitletd{
+   width: 50%;
+   
+}
+
+
+.membertable{
+  border: 2px solid gold;
+  text-align:center;
+  margin: 350px 500px 500px;
+  background-color:skyblue;
+  
+  
+
+  
+}
+
+  tr{
+    border: 1px;
+  }
+ 
+
+#login{
+   border:2px solid gold;
+   margin:300px auto; 
+   width:50%; 
+   background-color:skyblue;
+
+}
+
+#b{
+   bgcolor: skyblue;
+   b...
+[김종진] [오후 6:15] 파일: DWPtest.zip
+2023년 1월 25일 수요일
+[김종진] [오전 9:40] sendRedirect 즉시이동
+[김종진] [오전 10:55] Repository가 일종의 DB다
+[김종진] [오전 11:25] 사진
+[김종진] [오후 12:16] BeanFactory
+[김종진] [오후 12:16] ApplicationContext
+[김종진] [오후 3:07] 다른 package여도 import로 부러올 수 있다
+[김종진] [오후 3:53] package kr.sol.jj.main;
+
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
+import kr.sol.jj.beans.Test;
+
+
+public class MainClass {
+   
+   public static void s1() {
+      //BeanFactory
+      
+ClassPathResource c1= new ClassPathResource("kr/sol/jj/config/beans.xml");
+
+XmlBeanFactory fac= new XmlBeanFactory(c1);
+
+Test t1= fac.getBean("s1",Test.class);
+System.o...
+[김종진] [오후 3:54] 싱글톤일 경우엔 원래 파일 로딩될 때 객체가 생성된다
+[김종진] [오후 6:21] <!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <table border="1">
+
+        1938년 프랑스 월드컵
+<tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+<tr><th>우승</th><th>이탈리아</th><th>국기</th><th>월드컵 역사상 최초로 2회연속 우승</th></tr>
+<tr><th>준우승</th><th>헝가리</th><th>국기</th><th>최초 준우승</th></tr>
+<tr><th>3위</th><th>브라질</th><th>국기</th><th>비고</th></tr>
+<tr><th>4위</th><th>스웨덴</th><th>국기</th><th>비고</th></tr>
+<tr><th>5위</th><th>체코슬로바키아</th><th>국기</th><th>비고</th></tr>
+<tr><th>6위</th><th>프랑스</th><th>국기</th><th>...
+2023년 1월 26일 목요일
+[김종진] [오후 3:39] 항상 생각을 해야함
+[김종진] [오후 3:40] 이걸 왜 붙들고 있는지
+[김종진] [오후 3:41] 이게 지금 내가 가는길(코딩)이랑 관련이 있는지
+[김종진] [오후 3:42] 없으면 과감하게 에너지 투자 없애고 다른길에 투자해
+[김종진] [오후 3:52] 항상 나 혹은 남이 내가 가는길과 관련없는 영역을 알고 있냐고 질문하면 대답은: ㄴㄴ 이제 기억안남 코딩이나 해야지 라고 답해라
+[김종진] [오후 3:52] 실전으로 연습해 오늘 가족한테든 내일 학원생한테든 낼모래 친구들한테든 당장
+[김종진] [오후 3:53] 축구영역이랑 역사영역은 각각 취미 & 재료 모으기 영역
+[김종진] [오후 3:53] 말 나온김에 역사에도 돈 좀 쓰고
+[김종진] [오후 3:53] 쓸 때 ㅈㄴ많음 쓰셈
+[김종진] [오후 5:03] @Bean 프로젝트  때 뒤지게 쓸거임
+2023년 1월 27일 금요일
+[김종진] [오전 10:36] 얼그레이 맛있음
+[김종진] [오전 10:40] <beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd" xmlns:context="http://www.springframework.org/schema/context" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">

@@ -1,0 +1,53 @@
+```
+package kr.sol.jj.main;
+
+import java.util.List;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import kr.sol.jj.beans.JBean;
+import kr.sol.jj.config.BBean;
+import kr.sol.jj.db.JdbcDAO;
+
+public class MainClass {
+
+   public static void main(String[] args) {
+
+      AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(BBean.class);
+
+      JdbcDAO dao = ctx.getBean(JdbcDAO.class);
+
+      JBean b1 = new JBean();
+      b1.setNum1(3);
+      b1.setStr1("종진");
+      dao.in_sert(b1);
+
+      JBean b2 = new JBean();
+      b2.setNum1(3);
+      b2.setStr1("건상");
+      dao.up_date(b2);
+
+      dao.de_lete(3);
+
+      List<JBean> li = dao.sel_ect();
+
+      for (JBean b3 : li) {
+         System.out.println(b3.getNum1());
+         System.out.println(b3.getStr1());
+      }
+   }
+}
+```
+
+
+JBean b1 = new JBean();
+      b1.setNum1(3);
+      b1.setStr1("종진");
+      dao.in_sert(b1);
+      
+      
+		JBean b2 = new JBean();
+		b2.setNum1(3);
+		b2.setStr1("건상");
+		dao.up_date(b2);
+

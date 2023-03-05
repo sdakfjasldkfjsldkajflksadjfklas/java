@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+
+
+#a{
+  text-align: center;
+  font-size: 50px;
+
+  background-color: rgba(30, 87, 192, 0.644);
+  background-color: 100px;
+  margin-top: 20px;
+  font-family:cursive;
+}
+
+
+*{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+ 
+.win{
+  width: 100%;
+  overflow: hidden;
+
+  
+
+}
+.win > li {
+  width: 25%; /*20*5=100%*/
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  background-color: skyblue;
+
+}
+
+.win a {
+  color: #fff;
+}
+
+.winner > li {
+  line-height: 50px;
+  background-color: #94a9ff;
+}
+
+.winner {
+  height: 0; /*ul의 높이를 안보이게 처리*/
+  overflow: hidden;
+}
+
+.winnerr{
+  height: 0; 
+  overflow: hidden;
+}
+
+.winnerr>li{
+  line-height: 25px;
+  background-color: #94a9ff;
+}
+
+.win > li:hover {
+  background-color: skyblue;
+  transition-duration: 0.5s;
+}
+
+.win > li:hover .winner{ 
+  height: 400px; /*서브메뉴 li한개의 높이*/
+  transition-duration: 1s;
+}
+
+.win > li:hover .winnerr{
+  height: 575px;
+  transition-duration: 1s;
+}
+
+
+/*   
+
+
+#b{
+    font-size: 27px;
+    float: left; width: 25%;
+
+}
+
+#c{
+  font-size: 27px;
+  float: left; width: 25%;
+
+}
+
+#d{
+  font-size: 27px;
+  float: left; width: 25%;
+
+}
+
+#f{
+  font-size: 27px;
+  float: left; width: 25%;
+
+}
+#e{
+  border-color: orange;
+  
+}
+
+
+
+th{
+ margin-left: 10px;
+} */
+
+
+</style>
+</head>
+<body style="background-image: url(../allcountryballs.jpg);">
+         <h1><div id="a"> 역대 FIFA 월드컵 기록 모음</div> </h1>   
+         
+
+         <ul class="win">
+          <li>
+            <a href="move.html">역대 월드컵 우승국</a>
+            <ul class="winner">
+              <li ><a href="#">아르헨티나</li>
+              <li><a href="#">브라질</a></li>
+              <li><a href="#">잉글랜드</a></li>
+              <li><a href="#">프랑스</a></li>
+              <li><a href="#">독일</a></li>
+              <li><a href="#">이탈리아</a></li>
+              <li><a href="#">스페인</a></li>
+              <li><a href="#">우루과이</p></li>
+            </ul>
+          </li>
+          <li>
+
+
+            
+      
+            <a href="move2.html">역대 월드컵</a>
+            <ul class="winnerr">
+              <li ><a href="move2.html#uruguay">1930 우루과이 월드컵</a></li>
+              <li><a href="move2.html#italy">1934 이탈리아 월드컵</a></li>
+              <li><a href="move2.html#france">1938 프랑스 월드컵</a></li>
+              <li><a href="move2.html#brazil">1950 브라질 월드컵</a></li>
+              <li><a href="move2.html#switzerland">1954 스위스 월드컵</a></li>
+              <li><a href="move2.html#sweden">1958 스웨덴 월드컵</a></li>
+              <li><a href="move2.html#chile">1962 칠레 월드컵</a></li>
+              <li><a href="move2.html#england">1966 잉글랜드 월드컵</a></li>
+              <li><a href="move2.html#mexico">1970 멕시코 월드컵</a></li>
+              <li><a href="move2.html#westgermany">1974 서독 월드컵</a></li>
+              <li><a href="move2.html#argentina">1978 아르헨티나 월드컵</a></li>
+              <li><a href="move2.html#spain">1982 스페인 월드컵</a></li>
+              <li><a href="move2.html#mexico2">1986 멕시코 월드컵</a></li>
+              <li><a href="move2.html#italy2">1990 이탈리아 월드컵</a></li>
+              <li><a href="move2.html#usa">1994 미국 월드컵</a></li>
+              <li><a href="move2.html#france2">1998 프랑스 월드컵</a></li>
+              <li><a href="move2.html#koreajapan">2002 한일 월드컵</a></li>
+              <li><a href="move2.html#germany">2006 독일 월드컵</a></li>
+              <li><a href="move2.html#southafrica">2010 남아프리카공화국 월드컵</a></li>
+              <li><a href="move2.html#brazil2">2014 브라질 월드컵</a></li>
+              <li><a href="move2.html#russia">2018 러시아 월드컵</a></li>
+              <li><a href="move2.html#qatar">2022 카타르 월드컵</a></li>
+
+
+
+             
+            </ul>
+          </li>
+          <li>
+            <a href="move3.html">각종 월드컵 기록들</a>
+            
+          <li>
+            <a href="move4.html">각 나라별 전적</a>
+            <ul class="winner">
+              <li><a href="#" onclick="location.href='move5.html'">승부차기</a></li>
+              <li><a href="#">submenu02</a></li>
+              <li><a href="#">submenu03</a></li>
+              <li><a href="#">submenu04</a></li>
+              <li><a href="#">submenu05</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+
+
+
+
+
+<!-- <table border="3px" width="100%" height="0px" id="e"> -->
+        <!-- <tr>
+          <th bgcolor="skyblue"> <a href="#" onclick="window.open('move.html')"><div id="b">
+            <ul>역대 월드컵 우승국              
+                  <li>아르헨티나</li>
+                  <li>브라질</li>
+                  <li>잉글랜드</li>
+                  <li>프랑스</li>
+                  <li>독일</li>
+                  <li>이탈리아</li>
+                  <li>스페인</li>
+                  <li>우루과이</li>
+              </ul>
+            </div></a></th> -->
+    
+
+<!-- 
+          <th bgcolor="skyblue"><a href="#" onclick="window.open('move2.html')"><div id="c"><ul>역대 월드컵
+              <li></li>
+            </div></a></th>
+          <th bgcolor="skyblue"><a href="#" onclick="window.open('move3.html')"><div id="d">각종 월드컵 기록들</div></a></th>
+          <th bgcolor="skyblue"><a href="#" onclick="window.open('move4.html')"><div id="f">각 나라별 전적</div></a></th>
+         </tr>
+ -->
+
+
+
+         <!-- <td ><a href="#" onclick="window.open('move.html')"><div>아르헨티나</div></a></td></tr>
+        </tr>
+        </tr>
+      <tr>
+      
+    </tr> -->
+<!-- <td ><a href="#" onclick="window.open('move.html')"><div>브라질</div></a></td></tr>  </tr>
+    <td ><a href="#" onclick="window.open('move.html')"><div>잉글랜드</div></a></td></tr>
+  </tr>
+  <td ><a href="#" onclick="window.open('move.html')"><div>프랑스</div></a></td></tr>
+</tr>
+<td ><a href="#" onclick="window.open('move.html')"><div>독일</div></a></td></tr>
+</tr>
+<td ><a href="#" onclick="window.open('move.html')"><div>이탈리아</div></a></td></tr>
+</tr>
+<td ><a href="#" onclick="window.open('move.html')"><div>스페인</div></a></td></tr>
+</tr>
+<td ><a href="#" onclick="window.open('move.html')"><div>우루과이</div></a></td></tr>
+ -->
+
+
+
+
+</html>
+
+------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+#arg{
+    font-size: 20px;
+    color: #75AADB;
+    text-align: center;
+
+}
+
+#bra{
+    font-size: 20px;
+    color:#FEDF00;
+}
+
+#eng{
+    font-size: 20px;
+    color:#CF142B;
+}
+
+
+#fra{
+    font-size: 20px;
+    color:#051440;
+}
+
+
+#ger{
+    font-size: 20px;
+    color:black;
+
+}
+#ita{
+font-size: 20px;
+color: #009246;
+
+}
+
+#esp{
+    font-size: 20px;
+    color:#AD1519;
+}
+
+
+#uru{
+    font-size: 20px;
+    color:#0035A8;
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="arg" name="arg">아르헨티나Argentina</div><img src=""><br>
+        
+     <strong>1978 월드컵 우승<img src="C:/Users/soldesk/Desktop/1.png"><br>
+     1986 월드컵 우승<br>
+     2022 월드컵 우승</strong>
+
+
+
+
+      <div id="bra">브라질(Brazil)</div><br>
+    <div id="eng">잉글랜드(England)</div><br>
+    <div id="fra">프랑스(France)</div><br>
+    <div id="ger">독일(Germany)</div><br>
+    <div id="ita">이탈리아(Italy)</div><br>
+    <div id="esp">스페인(Spain)</div><br>
+    <div id="uru">우루과이(Uruguay)</div>
+    
+    <!-- <div id="bra"><a href="#uruguay">브라질(Brazil)</a></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="eng">잉글랜드(England)</div><br>
+    <div id="fra">프랑스(France)</div><br>
+    <div id="ger">독일(Germany)</div><br>
+    <div id="ita">이탈리아(Italy)</div><br>
+    <div id="esp">스페인(Spain)</div><br>
+    <div id="uru"><p id="uruguay">우루과이(Uruguay)</p></div> -->
+    
+</body>
+</html>
+
+==================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+#font{
+
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+strong img{
+    border: 1px solid;
+    
+    margin: 20px 0px 0px;
+width:40px;
+height:40px;
+}
+
+.a td{
+text-align: center;
+
+width:40px;
+height:40px;
+}
+
+.a td img{
+    width: 50px;
+    height: 40px;
+}
+
+
+        #red{
+            background-color: pink;
+        }
+
+        #yellowgreen{
+            background-color:#40FF00 ;
+        }
+
+        #blue{
+            background-color: #2E9AFE;
+        }
+
+        #gold{
+        background-color:#ffd700;
+        }
+
+        #sliver{
+            background-color:#c0c0c0 ;
+        }
+
+        #bronze{
+            background-color: #a47c6d;
+        }
+
+        #four{
+            background-color: #2EFEF7;
+        }
+
+    </style>
+</head>
+<body style="background-image: url(../worldmap.png);">
+    <center>
+
+        <strong id="font"><a name="uruguay">1930 우루과이 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/34.png" ></strong><br><br>
+        <table border="1" class="a">
+            <tr><th>순위</th><th>국기</th><th>국가</th><th>비고</th></tr>
+     <tr id="gold"><th>우승</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>세계 최초 우승</th></tr>
+     <tr id="sliver"><th>준우승</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>세계 최초 준우승</th></tr>
+     <tr id="bronze"><th>3위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/cc.png"></td><th>세계 최초 3위</th></tr>
+     <tr id="four"><th>4위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>5위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/ee.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>6위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>7위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>8위</th><th>루마니아</th><td><img src="C:/Users/soldesk/Desktop/flag/gg.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>9위</th><th>파라과이</th><td><img src="C:/Users/soldesk/Desktop/flag/hh.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>10위</th><th>페루</th><td><img src="C:/Users/soldesk/Desktop/flag/ii.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>11위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>12위</th><th>볼리비아</th><td><img src="C:/Users/soldesk/Desktop/flag/kk.png"></td><th>본선 첫 진출</th></tr>
+     <tr id="red"><th>13위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>본선 첫 진출</th></tr>
+           
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <strong id="font"><a name="italy">1934 이탈리아 월드컵</a>&nbsp;<img src="C:/Users/soldesk/Desktop/flag/nachi.svg"></strong><br><br>
+    <table border="1" class="a">  
+        <tr ><th>순위</th><th>국기</th><th>국가</th><th>비고</th></tr> 
+        <tr id="gold"><th>우승</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/nachi.svg"></td><th>1번째 우승</th></tr>
+        <tr id="sliver"><th>준우승</th><th>체코슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/nn.png"></td><th>1번째 준승</th></tr>
+        <tr id="bronze"><th>3위</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/nachic.png"></td><th>최초 3위</th></tr>
+        <tr id="four"><th>4위</th><th>오스트리아</th><td><img src="C:/Users/soldesk/Desktop/flag/ww.png"></td><th>본선 첫 진출</th></tr>
+        <tr id="blue"><th>5위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>본선 첫 진출</th></tr>
+        <tr id="blue"><th>6위</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>본선 첫 진출</th></tr>
+        <tr id="blue"><th>7위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>본선 첫 진출</th></tr>
+        <tr id="blue"><th>8위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>본선 첫 진출</th></tr>
+        <tr id="red"><th>9위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th></th></tr>
+        <tr id="red"><th>10위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th></th></tr>
+        <tr id="red"><th>11위</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>본선 첫 진출</th></tr>
+        <tr id="red"><th>12위</th><th>루마니아</th><td><img src="C:/Users/soldesk/Desktop/flag/uu.jpg"></td><th></th></tr>
+        <tr id="red"><th>13위</th><th>이집트</th><td><img src="C:/Users/soldesk/Desktop/flag/vv.png"></td><th>본선 첫 진출</th></tr>
+        <tr id="red"><th>14위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th></th></tr>
+        <tr id="red"><th>15위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th></th></tr>
+        <tr id="red"><th>16위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/cc.png"></td><th></th></tr>
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <table border="1"  class="a">
+
+        <strong id="font"><a name="france">1938 프랑스 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/ff.png"></strong><br><br>
+<tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+<tr id="gold"><th>우승</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/nachi.svg"></td><th>세계 최초 2회연속 우승</th></tr>
+<tr id="sliver"><th>준우승</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>최초 준우승</th></tr>
+<tr id="bronze"><th>3위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>최초 3위</th></tr>
+<tr id="four"><th>4위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>비고</th></tr>
+<tr id="blue"><th>5위</th><th>체코슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/nn.png"></td><th>비고</th></tr>
+<tr id="blue"><th>6위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>비고</th></tr>
+<tr id="blue"><th>7위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+<tr id="blue"><th>8위</th><th>쿠바</th><td><img src="C:/Users/soldesk/Desktop/flag/345.svg"></td><th> 본선 첫 진출</th></tr>
+<tr id="red"><th>9위</th><th>루마니아</th><td><img src="C:/Users/soldesk/Desktop/flag/uu.jpg"></td><th>비고</th></tr>
+<tr id="red"><th>10위</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/nachic.png"></td><th>비고</th></tr>
+<tr id="red"><th>11위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/22.png"></td><th>본선 첫 진출</th></tr>
+<tr id="red"><th>12위</th><th>노르웨이</th><td><img src="C:/Users/soldesk/Desktop/flag/421.png"></td><th>본선 첫 진출</th></tr>
+<tr id="red"><th>13위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th>비고</th></tr>
+<tr id="red"><th>14위</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>비고</th></tr>
+<tr id="red"><th>15위</th><th>네덜란드령 동인도</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>본선 첫 진출</th></tr>
+<tr id="red"><th>16위</th><th>오스트리아</th><td><img src="C:/Users/soldesk/Desktop/flag/ww.png"></td><th>비고</th></tr>
+
+</table>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<strong id="font"><a name="brazil">1950 브라질 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></strong><br><br>
+    <table border="1" class="a">  
+<tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+<tr id="gold"><th>우승</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>2회우승</th></tr>
+<tr id="sliver"><th>준우승</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>최초 준우승</th></tr>
+<tr id="bronze"><th>3위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>최초 3위</th></tr>
+<tr id="four"><th>4위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+<tr id="red"><th>5위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>비고</th></tr>
+<tr id="red"><th>6위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+<tr id="red"><th>7위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>비고</th></tr>
+<tr id="red"><th>8위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>본선 첫 진출</th></tr>
+<tr id="red"><th>9위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/ee.png"></td><th>본선 첫 진출</th></tr>
+<tr id="red"><th>10위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/cc.png"></td><th>비고</th></tr>
+<tr id="red"><th>11위</th><th>파라과이</th><td><img src="C:/Users/soldesk/Desktop/flag/hh.png"></td><th>비고</th></tr>
+<tr id="red"><th>12위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+<tr id="red"><th>13위</th><th>볼리비아</th><td><img src="C:/Users/soldesk/Desktop/flag/kk.png"></td><th>본선 첫 진출</th></tr>
+
+
+
+
+
+
+
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <strong id="font"><a name="switzerland">1954 스위스 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></strong><br><br>
+    <table border="1" class="a">  
+
+    <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+    <tr id="gold"><th>우승</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>최초 우승</th></tr>
+    <tr id="sliver"><th>준우승</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>세계 최초 2회 준우승</th></tr>
+    <tr id="bronze"><th>3위</th><th>오스트리아</th><td><img src="C:/Users/soldesk/Desktop/flag/ww.png"></td><th>최초 3위</th></tr>
+    <tr id="four"><th>4위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>비고</th></tr>
+    <tr id="blue"><th>5위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+    <tr id="blue"><th>6위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>비고</th></tr>
+    <tr id="blue"><th>7위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>비고</th></tr>
+    <tr id="blue"><th>8위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+    <tr id="red"><th>9위</th><th>터키</th><td><img src="C:/Users/soldesk/Desktop/flag/ty.png"></td><th>본선 첫 진출</th></tr>
+    <tr id="red"><th>10위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>비고</th></tr>
+    <tr id="red"><th>11위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>비고</th></tr>
+    <tr id="red"><th>12위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th>비고</th></tr>
+    <tr id="red"><th>13위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/kk.png"></td><th>비고</th></tr>
+    <tr id="red"><th>14위</th><th>체코슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/nn.png"></td><th>비고</th></tr>
+    <tr id="red"><th>15위</th><th>스코틀랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/sc.png"></td><th>본선 첫 진출</th></tr>
+    <tr id="red"><th>16위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>본선 첫 진출</th></tr>
+
+
+
+
+
+
+
+        </table>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+        
+    <strong id="font"><a name="sweden">1958 스웨덴 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/rr.png"></strong><br><br>
+    <table border="1" class="a">  
+
+        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+        <tr id="gold"><th>우승</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>최초 우승</th></tr>
+        <tr id="sliver"><th>준우승</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>최초 준우승</th></tr>
+        <tr id="bronze"><th>3위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>최초 3위</th></tr>
+        <tr id="four"><th>4위</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>비고</th></tr>
+        <tr id="blue"><th>5위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>비고</th></tr>
+        <tr id="blue"><th>6위</th><th>웨일스</th><td><img src="C:/Users/soldesk/Desktop/flag/wales.png"></td><th>본선 첫 진출</th></tr>
+        <tr id="blue"><th>7위</th><th>소련</th><td><img src="C:/Users/soldesk/Desktop/flag/so.png"></td><th>본선 첫 진출</th></tr>
+        <tr id="blue"><th>8위</th><th>북아일랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/ni.png"></td><th>본선 첫 진출</th></tr>
+        <tr id="red"><th>9위</th><th>체코슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/nn.png"></td><th>비고</th></tr>
+        <tr id="red"><th>10위</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>비고</th></tr>
+        <tr id="red"><th>11위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>비고</th></tr>
+        <tr id="red"><th>12위</th><th>파라과이</th><td><img src="C:/Users/soldesk/Desktop/flag/hh.png"></td><th>비고</th></tr>
+        <tr id="red"><th>13위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>비고</th></tr>
+        <tr id="red"><th>14위</th><th>스코틀랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/sc.png"></td><th>비고</th></tr>
+        <tr id="red"><th>15위</th><th>오스트리아</th><td><img src="C:/Users/soldesk/Desktop/flag/ww.png"></td><th>비고</th></tr>
+        <tr id="red"><th>16위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+
+
+         </table>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <strong id="font"><a name="chile">1962 칠레 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/ee.png"></strong><br><br>
+            <table border="1" class="a">  
+
+            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+            <tr id="gold"><th>우승</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>2회 우승</th></tr>
+            <tr id="sliver"><th>준우승</th><th>체코슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/nn.png"></td><th>2회 준우승</th></tr>
+            <tr id="bronze"><th>3위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/ee.png"></td><th>최초 3위</th></tr>
+            <tr id="four"><th>4위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>비고</th></tr>
+            <tr id="blue"><th>5위</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>비고</th></tr>
+            <tr id="blue"><th>6위</th><th>소련</th><td><img src="C:/Users/soldesk/Desktop/flag/so.png"></td><th>비고</th></tr>
+            <tr id="blue"><th>7위</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>비고</th></tr>
+            <tr id="blue"><th>8위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>비고</th></tr>
+            <tr id="red"><th>9위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>비고</th></tr>
+            <tr id="red"><th>10위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>비고</th></tr>
+            <tr id="red"><th>11위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+            <tr id="red"><th>12위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+            <tr id="red"><th>13위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>비고</th></tr>
+            <tr id="red"><th>14위</th><th>콜롬비아</th><td><img src="C:/Users/soldesk/Desktop/flag/co.png"></td><th>본선 첫 진출</th></tr>
+            <tr id="red"><th>15위</th><th>불가리아</th><td><img src="C:/Users/soldesk/Desktop/flag/bul.png"></td><th>본선 첫 진출</th></tr>
+            <tr id="red"><th>16위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+
+
+             </table>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                <strong id="font"><a name="england">1966 잉글랜드 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/er.png"></strong><br><br>
+                <table border="1" class="a">  
+    
+
+                <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                <tr id="gold"><th>우승</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>최초 우승</th></tr>
+                <tr id="sliver"><th>준우승</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>최초 준우승</th></tr>
+                <tr id="bronze"><th>3위</th><th>포르투갈</th><td><img src="C:/Users/soldesk/Desktop/flag/po.png"></td><th>본선 첫 진출,최초 3위</th></tr>
+                <tr id="four"><th>4위</th><th>소련</th><td><img src="C:/Users/soldesk/Desktop/flag/so.png"></td><th>비고</th></tr>
+                <tr id="blue"><th>5위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>비고</th></tr>
+                <tr id="blue"><th>6위</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>비고</th></tr>
+                <tr id="blue"><th>7위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>비고</th></tr>
+                <tr id="blue"><th>8위</th><th>북한</th><td><img src="C:/Users/soldesk/Desktop/flag/nk.png"></td><th>본선 첫 진출</th></tr>
+                <tr id="red"><th>9위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>비고</th></tr>
+                <tr id="red"><th>10위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+                <tr id="red"><th>11위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                <tr id="red"><th>12위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+                <tr id="red"><th>13위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/ee.png"></td><th>비고</th></tr>
+                <tr id="red"><th>14위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>비고</th></tr>
+                <tr id="red"><th>15위</th><th>불가리아</th><td><img src="C:/Users/soldesk/Desktop/flag/bul.png"></td><th>비고</th></tr>
+                <tr id="red"><th>16위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+
+
+                 </table>
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                    <strong id="font"><a name="mexico">1970 멕시코 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/ll.png"></strong><br><br>
+                <table border="1" class="a">  
+                    <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                    <tr id="gold"><th>우승</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>세계 최초 3회 우승</th></tr>
+                    <tr id="sliver"><th>준우승</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>최초 준우승</th></tr>
+                    <tr id="bronze"><th>3위</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>최초 3위</th></tr>
+                    <tr id="four"><th>4위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>비고</th></tr>
+                    <tr id="blue"><th>5위</th><th>소련</th><td><img src="C:/Users/soldesk/Desktop/flag/so.png"></td><th>비고</th></tr>
+                    <tr id="blue"><th>6위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+                    <tr id="blue"><th>7위</th><th>페루</th><td><img src="C:/Users/soldesk/Desktop/flag/ii.png"></td><th>비고</th></tr>
+                    <tr id="blue"><th>8위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>비고</th></tr>
+                    <tr id="red"><th>9위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>비고</th></tr>
+                    <tr id="red"><th>10위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th>비고</th></tr>
+                    <tr id="red"><th>11위</th><th>루마니아</th><td><img src="C:/Users/soldesk/Desktop/flag/uu.jpg"></td><th>비고</th></tr>
+                    <tr id="red"><th>12위</th><th>이스라엘</th><td><img src="C:/Users/soldesk/Desktop/flag/is.png"></td><th>본선 첫 진출</th></tr>
+                    <tr id="red"><th>13위</th><th>불가리아</th><td><img src="C:/Users/soldesk/Desktop/flag/bul.png"></td><th>비고</th></tr>
+                    <tr id="red"><th>14위</th><th>모로코</th><td><img src="C:/Users/soldesk/Desktop/flag/mo.png"></td><th>비고</th></tr>
+                    <tr id="red"><th>15위</th><th>체코슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/ee.png"></td><th>비고</th></tr>
+                    <tr id="red"><th>16위</th><th>엘살바도르</th><td><img src="C:/Users/soldesk/Desktop/flag/el.png"></td><th>본선 첫 진출</th></tr>
+
+
+                     </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                        <strong id="font"><a name="westgermany">1974 서독 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/wgr.png"></strong><br><br>
+                        <table border="1" class="a">  
+
+                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                        <tr id="gold"><th>우승</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>2회 우승</th></tr>
+                        <tr id="sliver"><th>준우승</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>최초 준우승</th></tr>
+                        <tr id="bronze"><th>3위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/22.png"></td><th>최초 3위</th></tr>
+                        <tr id="four"><th>4위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                        <tr id="blue"><th>5위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>비고</th></tr>
+                        <tr id="blue"><th>6위</th><th>동독</th><td><img src="C:/Users/soldesk/Desktop/flag/egr.png"></td><th>본선 첫 진출</th></tr>
+                        <tr id="blue"><th>7위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>비고</th></tr>
+                        <tr id="blue"><th>8위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>비고</th></tr>
+                        <tr id="red"><th>9위</th><th>스코틀랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/sc.png"></td><th>비고</th></tr>
+                        <tr id="red"><th>10위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>비고</th></tr>
+                        <tr id="red"><th>11위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/ee.png"></td><th>비고</th></tr>
+                        <tr id="red"><th>12위</th><th>불가리아</th><td><img src="C:/Users/soldesk/Desktop/flag/bul.png"></td><th>비고</th></tr>
+                        <tr id="red"><th>13위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>비고</th></tr>
+                        <tr id="red"><th>14위</th><th>호주</th><td><img src="C:/Users/soldesk/Desktop/flag/au.png"></td><th>본선 첫 진출</th></tr>
+                        <tr id="red"><th>15위</th><th>아이티</th><td><img src="C:/Users/soldesk/Desktop/flag/haiti.png"></td><th>본선 첫 진출</th></tr>
+                        <tr id="red"><th>16위</th><th>자이르</th><td><img src="C:/Users/soldesk/Desktop/flag/congo.png"></td><th>본선 첫 진출</th></tr>
+
+
+                         </table>
+                            <br><br><br><br><br><br><br><br><br><br><br><br>
+                            <strong id="font"><a name="argentina">1978 아르헨티나 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/bbb.png"></strong><br><br>
+                            <table border="1" class="a">  
+
+                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                            <tr id="gold"><th>우승</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>최초 우승</th></tr>
+                            <tr id="sliver"><th>준우승</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>세계 최초 2회연속 준우승</th></tr>
+                            <tr id="bronze"><th>3위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                            <tr id="four"><th>4위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>5위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/22.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>6위</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>7위</th><th>오스트리아</th><td><img src="C:/Users/soldesk/Desktop/flag/ww.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>8위</th><th>페루</th><td><img src="C:/Users/soldesk/Desktop/flag/ii.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>9위</th><th>튀니지</th><td><img src="C:/Users/soldesk/Desktop/flag/tu.png"></td><th>본선 첫 진출</th></tr>
+                            <tr id="red"><th>10위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+                            <tr id="red"><th>11위</th><th>스코틀랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/sc.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>12위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>13위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>14위</th><th>이란</th><td><img src="C:/Users/soldesk/Desktop/flag/ir.png"></td><th>본선 첫 진출</th></tr>
+                            <tr id="red"><th>15위</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>16위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+
+
+                             </table>
+                                <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                <strong id="font"><a name="spain">1982 스페인 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></strong><br><br>
+                                <table border="1" class="a">  
+
+                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                            <tr id="gold"><th>우승</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>3번째 우승</th></tr>
+                            <tr id="sliver"><th>준우승</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>2번째 준우승</th></tr>
+                            <tr id="bronze"><th>3위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/22.png"></td><th>비고</th></tr>
+                            <tr id="four"><th>4위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>5위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>6위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>7위</th><th>소련</th><td><img src="C:/Users/soldesk/Desktop/flag/so.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>8위</th><th>오스트리아</th><td><img src="C:/Users/soldesk/Desktop/flag/ww.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>9위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>10위</th><th>북아일랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/ni.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>11위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>비고</th></tr>
+                            <tr id="blue"><th>12위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+                            <tr id="red"><th>13위</th><th>알제리</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>본선 첫 진출</th></tr>
+                            <tr id="red"><th>14위</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>15위</th><th>스코틀랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/sc.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>16위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>17위</th><th>카메룬</th><td><img src="C:/Users/soldesk/Desktop/flag/ca.svg"></td><th>본선 첫 진출</th></tr>
+                            <tr id="red"><th>18위</th><th>온두라스</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>본선 첫 진출</th></tr>
+                            <tr id="red"><th>19위</th><th>체코슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/nn.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>20위</th><th>페루</th><td><img src="C:/Users/soldesk/Desktop/flag/ii.png"></td><th>조별리그</th></tr>
+                            <tr id="red"><th>21위</th><th>쿠웨이트</th><td><img src="C:/Users/soldesk/Desktop/flag/qu.png"></td><th>본선 첫 진출</th></tr>
+                            <tr id="red"><th>22위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/ee.png"></td><th>비고</th></tr>
+                            <tr id="red"><th>23위</th><th>뉴질랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/new.png"></td><th>본선 첫 진출</th></tr>
+                            <tr id="red"><th>24위</th><th>엘살바도르</th><td><img src="C:/Users/soldesk/Desktop/flag/el.png"></td><th>비고</th></tr>
+
+
+                             </table>
+                                <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                <strong id="font"><a name="mexico2">1986 멕시코 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/ll.png"></strong><br><br>
+                                <table border="1" class="a">  
+
+                                <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                <tr id="gold"><th>우승</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>2번째 우승</th></tr>
+                                <tr id="sliver"><th>준우승</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>세계 최초 3번째 준우승</th></tr>
+                                <tr id="bronze"><th>3위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>비고</th></tr>
+                                <tr id="four"><th>4위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th>비고</th></tr>
+                                <tr id="blue"><th>5위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                                <tr id="blue"><th>6위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+                                <tr id="blue"><th>7위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+                                <tr id="blue"><th>8위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>비고</th></tr>
+                                <tr id="yellowgreen"><th>9위</th><th>덴마크</th><td><img src="C:/Users/soldesk/Desktop/flag/den.png"></td><th>본선 첫 진출</th></tr>
+                                <tr id="yellowgreen"><th>10위</th><th>소련</th><td><img src="C:/Users/soldesk/Desktop/flag/so.png"></td><th>비고</th></tr>
+                                <tr id="yellowgreen"><th>11위</th><th>모로코</th><td><img src="C:/Users/soldesk/Desktop/flag/mo.png"></td><th>본선 첫 진출</th></tr>
+                                <tr id="yellowgreen"><th>12위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>비고</th></tr>
+                                <tr id="yellowgreen"><th>13위</th><th>파라과이</th><td><img src="C:/Users/soldesk/Desktop/flag/hh.png"></td><th>비고</th></tr>
+                                <tr id="yellowgreen"><th>14위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/22.png"></td><th>비고</th></tr>
+                                <tr id="yellowgreen"><th>15위</th><th>불가리아</th><td><img src="C:/Users/soldesk/Desktop/flag/bul.png"></td><th>비고</th></tr>
+                                <tr id="yellowgreen"><th>16위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>비고</th></tr>
+                                <tr id="red"><th>17위</th><th>포르투갈</th><td><img src="C:/Users/soldesk/Desktop/flag/po.png"></td><th>비고</th></tr>
+                                <tr id="red"><th>18위</th><th>헝가리</th><td><img src="C:/Users/soldesk/Desktop/flag/ss.png"></td><th>비고</th></tr>
+                                <tr id="red"><th>19위</th><th>스코틀랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/sc.png"></td><th>비고</th></tr>
+                                <tr id="red"><th>20위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                <tr id="red"><th>21위</th><th>북아일랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/ni.png"></td><th>비고</th></tr>
+                                <tr id="red"><th>22위</th><th>알제리</th><td><img src="C:/Users/soldesk/Desktop/flag/alge.png"></td><th>비고</th></tr>
+                                <tr id="red"><th>23위</th><th>이라크</th><td><img src="C:/Users/soldesk/Desktop/flag/iraq.png"></td><th>본선 첫 진출</th></tr>
+                                <tr id="red"><th>24위</th><th>캐나다</th><td><img src="C:/Users/soldesk/Desktop/flag/canada.png"></td><th>본선 첫 진출</th></tr>
+
+
+                                 </table>
+                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                    <strong id="font"><a name="italy2">1990 이탈리아 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/it.png"></strong><br><br>
+                                    <table border="1" class="a">  
+    
+                                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                    <tr id="gold"><th>우승</th><th>서독</th><td><img src="C:/Users/soldesk/Desktop/flag/wgr.png"></td><th>3번째 우승</th></tr>
+                                    <tr id="sliver"><th>준우승</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>2번째 준우승</th></tr>
+                                    <tr id="bronze"><th>3위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>최초 3위</th></tr>
+                                    <tr id="four"><th>4위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>비고</th></tr>
+                                    <tr id="blue"><th>5위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>비고</th></tr>
+                                    <tr id="blue"><th>6위</th><th>체코슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/nn.png"></td><th>비고</th></tr>
+                                    <tr id="blue"><th>7위</th><th>카메룬</th><td><img src="C:/Users/soldesk/Desktop/flag/ca.svg"></td><th>비고</th></tr>
+                                    <tr id="blue"><th>8위</th><th>아일랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/potato.png"></td><th>본선 첫 진출</th></tr>
+                                    <tr id="yellowgreen"><th>9위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                                    <tr id="yellowgreen"><th>10위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+                                    <tr id="yellowgreen"><th>11위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th>비고</th></tr>
+                                    <tr id="yellowgreen"><th>12위</th><th>루마니아</th><td><img src="C:/Users/soldesk/Desktop/flag/uu.jpg"></td><th>비고</th></tr>
+                                    <tr id="yellowgreen"><th>13위</th><th>코스타리카</th><td><img src="C:/Users/soldesk/Desktop/flag/costa.png"></td><th>본선 첫 진출</th></tr>
+                                    <tr id="yellowgreen"><th>14위</th><th>콜롬비아</th><td><img src="C:/Users/soldesk/Desktop/flag/co.png"></td><th>비고</th></tr>
+                                    <tr id="yellowgreen"><th>15위</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>비고</th></tr>
+                                    <tr id="yellowgreen"><th>16위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/34.png"></td><th>비고</th></tr>
+                                    <tr id="red"><th>17위</th><th>소련</th><td><img src="C:/Users/soldesk/Desktop/flag/so.png"></td><th>비고</th></tr>
+                                    <tr id="red"><th>18위</th><th>오스트리아</th><td><img src="C:/Users/soldesk/Desktop/flag/ww.png"></td><th>비고</th></tr>
+                                    <tr id="red"><th>19위</th><th>스코틀랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/sc.png"></td><th>비고</th></tr>
+                                    <tr id="red"><th>20위</th><th>이집트</th><td><img src="C:/Users/soldesk/Desktop/flag/vv.png"></td><th>비고</th></tr>
+                                    <tr id="red"><th>21위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>비고</th></tr>
+                                    <tr id="red"><th>22위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                    <tr id="red"><th>23위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/cc.png"></td><th>비고</th></tr>
+                                    <tr id="red"><th>24위</th><th>아랍에미리트</th><td><img src="C:/Users/soldesk/Desktop/flag/uae.png"></td><th>본선 첫 진출</th></tr>
+
+
+                                     </table>
+                                        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                        <strong id="font"><a name="usa">1994 미국 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/cc.png"></strong><br><br>
+                                        <table border="1" class="a">
+                                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                        <tr id="gold"><th>우승</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>세계 최초 4번째 우승</th></tr>
+                                        <tr id="sliver"><th>준우승</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>2번째 준우승</th></tr>
+                                        <tr id="bronze"><th>3위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/rr.png"></td><th>비고</th></tr>
+                                        <tr id="four"><th>4위</th><th>불가리아</th><td><img src="C:/Users/soldesk/Desktop/flag/bul.png"></td><th>비고</th></tr>
+                                        <tr id="blue"><th>5위</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/germany.png"></td><th>서독 기록 계승</th></tr>
+                                        <tr id="blue"><th>6위</th><th>루마니아</th><td><img src="C:/Users/soldesk/Desktop/flag/uu.jpg"></td><th>비고</th></tr>
+                                        <tr id="blue"><th>7위</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>비고</th></tr>
+                                        <tr id="blue"><th>8위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>9위</th><th>나이지리아</th><td><img src="C:/Users/soldesk/Desktop/flag/nig.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>10위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>11위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/jj.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>12위</th><th>사우디아라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/saudi.png"></td><th>본선 첫 진출</th></tr>
+                                        <tr id="yellowgreen"><th>13위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>14위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/cc.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>15위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>16위</th><th>아일랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/potato.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>17위</th><th>노르웨이</th><td><img src="C:/Users/soldesk/Desktop/flag/421.png"></td><th>본선 첫 진출</th></tr>
+                                        <tr id="red"><th>18위</th><th>러시아</th><td><img src="C:/Users/soldesk/Desktop/flag/russia.png"></td><th>소련 기록 계승</th></tr>
+                                        <tr id="red"><th>19위</th><th>콜롬비아</th><td><img src="C:/Users/soldesk/Desktop/flag/co.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>20위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>21위</th><th>볼리비아</th><td><img src="C:/Users/soldesk/Desktop/flag/kk.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>22위</th><th>카메룬</th><td><img src="C:/Users/soldesk/Desktop/flag/ca.svg"></td><th>비고</th></tr>
+                                        <tr id="red"><th>23위</th><th>모로코</th><td><img src="C:/Users/soldesk/Desktop/flag/mo.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>24위</th><th>그리스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+
+
+                                         </table>
+                                            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                                            <strong id="font"><a name="france2">1998 프랑스 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/ff.png"></strong><br><br>
+                                            <table border="1" class="a">
+
+                                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                        <tr id="gold"><th>우승</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/ff.png"></td><th>최초 우승</th></tr>
+                                        <tr id="sliver"><th>준우승</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>2번째 준우승</th></tr>
+                                        <tr id="bronze"><th>3위</th><th>크로아티아</th><td><img src="C:/Users/soldesk/Desktop/flag/cro.png"></td><th>본선 첫 진출,최초3위</th></tr>
+                                        <tr id="four"><th>4위</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>비고</th></tr>
+                                        <tr id="blue"><th>5위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/it.png"></td><th>비고</th></tr>
+                                        <tr id="blue"><th>6위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/bbb.png"></td><th>비고</th></tr>
+                                        <tr id="blue"><th>7위</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/germany.png"></td><th>비고</th></tr>
+                                        <tr id="blue"><th>8위</th><th>덴마크</th><td><img src="C:/Users/soldesk/Desktop/flag/den.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>9위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/er.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>10위</th><th>유고슬라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/dd.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>11위</th><th>루마니아</th><td><img src="C:/Users/soldesk/Desktop/flag/uu.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>12위</th><th>나이지리아</th><td><img src="C:/Users/soldesk/Desktop/flag/nig.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>13위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/ll.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>14위</th><th>파라과이</th><td><img src="C:/Users/soldesk/Desktop/flag/hh.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>15위</th><th>노르웨이</th><td><img src="C:/Users/soldesk/Desktop/flag/421.png"></td><th>비고</th></tr>
+                                        <tr id="yellowgreen"><th>16위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/ee.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>17위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.jpg"></td><th>비고</th></tr>
+                                        <tr id="red"><th>18위</th><th>모로코</th><td><img src="C:/Users/soldesk/Desktop/flag/mo.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>19위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>20위</th><th>이란</th><td><img src="C:/Users/soldesk/Desktop/flag/ir.png"></td><th></th></tr>
+                                        <tr id="red"><th>21위</th><th>콜롬비아</th><td><img src="C:/Users/soldesk/Desktop/flag/.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>22위</th><th>자메이카</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                        <tr id="red"><th>23위</th><th>남아프리카공화국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                        <tr id="red"><th>24위</th><th>오스트리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>25위</th><th>카메룬</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>26위</th><th>튀니지</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>27위</th><th>스코틀랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>28위</th><th>사우디아라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>29위</th><th>불가리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>30위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>31위</th><th>일본</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                        <tr id="red"><th>32위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+
+
+
+                                         </table>
+                                            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                            <strong id="font"><a name="koreajapan">2002 한일 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/cc.png"></strong><br><br>
+                                        <table border="1" class="a">
+
+                                            <tr><th>순위</th><th>국가</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="gold"><th>우승</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>세계 최초 5번째 우승</th></tr>
+                                            <tr id="sliver"><th>준우승</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/germany.png"></td><th>세계 최초 4번째 준우승</th></tr>
+                                            <tr id="bronze"><th>3위</th><th>터키</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>최초 3위</th></tr>
+                                            <tr id="four"><th>4위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                            <tr id="blue"><th>5위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.png"></td><th>비고</th></tr>
+                                            <tr id="blue"><th>6위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="blue"><th>7위</th><th>세네갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="blue"><th>8위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="yellowgreen"><th>9위</th><th>일본</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="yellowgreen"><th>10위</th><th>덴마크</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="yellowgreen"><th>11위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="yellowgreen"><th>12위</th><th>아일랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="yellowgreen"><th>13위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="yellowgreen"><th>14위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="yellowgreen"><th>15위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="yellowgreen"><th>16위</th><th>파라과이</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>17위</th><th>남아프리카공화국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>18위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>19위</th><th>코스타리카</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>20위</th><th>카메룬</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>21위</th><th>포르투갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>22위</th><th>러시아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>23위</th><th>크로아티아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>24위</th><th>에콰도르</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                            <tr id="red"><th>25위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>26위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>27위</th><th>나이지리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>28위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>29위</th><th>튀니지</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                            <tr id="red"><th>30위</th><th>슬로베니아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                            <tr id="red"><th>31위</th><th>중국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                            <tr id="red"><th>32위</th><th>사우디아라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+
+
+
+                                             </table>
+                                                <br><br><br><br><br><br><br><br><br><br><br>
+                                                <strong id="font"><a name="germany">2006 독일 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/cc.png"></strong><br><br>
+                                        <table border="1" class="a">
+
+                                                <tr><th>순위</th><th>국가</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="gold"><th>우승</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>4번째 우승</th></tr>
+                                                <tr id="sliver"><th>준우승</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>1번째 준우승</th></tr>
+                                                <tr id="bronze"><th>3위</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/germany.png"></td><th>비고</th></tr>
+                                                <tr id="four"><th>4위</th><th>포르투갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="blue"><th>5위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                                                <tr id="blue"><th>6위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="blue"><th>7위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="blue"><th>8위</th><th>우크라이나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                                <tr id="yellowgreen"><th>9위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.png"></td><th>비고</th></tr>
+                                                <tr id="yellowgreen"><th>10위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+                                                <tr id="yellowgreen"><th>11위</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>비고</th></tr>
+                                                <tr id="yellowgreen"><th>12위</th><th>에콰도르</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="yellowgreen"><th>13위</th><th>가나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                                <tr id="yellowgreen"><th>14위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="yellowgreen"><th>15위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="yellowgreen"><th>16위</th><th>호주</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>17위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>18위</th><th>파라과이</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>19위</th><th>코트디부아르</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                                <tr id="red"><th>20위</th><th>체코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>21위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>22위</th><th>크로아티아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>23위</th><th>앙골라</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                                <tr id="red"><th>24위</th><th>튀니지</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>25위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>26위</th><th>이란</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>27위</th><th>트리니다드 토바고</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                                <tr id="red"><th>28위</th><th>사우디아라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>29위</th><th>일본</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>30위</th><th>토고</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                                <tr id="red"><th>31위</th><th>코스타리카</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                <tr id="red"><th>32위</th><th>세르비아 몬테네그로</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>유고슬라비아 계승</th></tr>
+
+
+
+                                                 </table>
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                    <strong id="font"><a name="southafrica">2010 남아프리카 공화국 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/cc.png"></strong><br><br>
+                                                    <table border="1" class="a">
+                                                    <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                    <tr id="gold"><th>우승</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.png"></td><th>최초 우승</th></tr>
+                                                    <tr id="sliver"><th>준우승</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>3번째 준우승</th></tr>
+                                                    <tr id="bronze"><th>3위</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/germany.png"></td><th>비고</th></tr>
+                                                    <tr id="four"><th>4위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="blue"><th>5위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="blue"><th>6위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                                                    <tr id="blue"><th>7위</th><th>가나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="blue"><th>8위</th><th>파라과이</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="yellowgreen"><th>9위</th><th>일본</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="yellowgreen"><th>10위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="yellowgreen"><th>11위</th><th>포르투갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="yellowgreen"><th>12위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="yellowgreen"><th>13위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="yellowgreen"><th>14위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="yellowgreen"><th>15위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                                    <tr id="yellowgreen"><th>16위</th><th>슬로바키아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                                    <tr id="red"><th>17위</th><th>코트디부아르</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>18위</th><th>슬로베니아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>19위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>20위</th><th>남아프리카 공화국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>21위</th><th>호주</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>22위</th><th>뉴질랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>23위</th><th>세르비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>24위</th><th>덴마크</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>25위</th><th>그리스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>26위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>27위</th><th>나이지리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>28위</th><th>알제리</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>29위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>30위</th><th>온두라스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>31위</th><th>카메룬</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                    <tr id="red"><th>32위</th><th>북한</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+
+
+
+                                                     </table>
+                                                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong id="font"><a name="brazil2">2014 브라질 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/cc.png"></strong><br><br>
+                                                        <table border="1" class="a">
+
+                                                        <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                        <tr id="gold"><th>우승</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/germany.png"></td><th>4번째 우승</th></tr>
+                                                        <tr id="sliver"><th>준우승</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>3번째 준우승</th></tr>
+                                                        <tr id="bronze"><th>3위</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>최초 3위</th></tr>
+                                                        <tr id="four"><th>4위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                                                        <tr id="blue"><th>5위</th><th>콜롬비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="blue"><th>6위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="blue"><th>7위</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="blue"><th>8위</th><th>코스타리카</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="yellowgreen"><th>9위</th><th>칠레</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="yellowgreen"><th>10위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="yellowgreen"><th>11위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+                                                        <tr id="yellowgreen"><th>12위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="yellowgreen"><th>13위</th><th>그리스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="yellowgreen"><th>14위</th><th>알제리</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="yellowgreen"><th>15위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="yellowgreen"><th>16위</th><th>나이지리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>17위</th><th>에콰도르</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>18위</th><th>포르투갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>19위</th><th>크로아티아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>20위</th><th>보스니아 헤르체고비나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+                                                        <tr id="red"><th>21위</th><th>코트디부아르</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>22위</th><th>이탈리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>23위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>24위</th><th>러시아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>25위</th><th>가나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>26위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>27위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>28위</th><th>이란</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>29위</th><th>일본</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>30위</th><th>호주</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>31위</th><th>온두라스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                        <tr id="red"><th>32위</th><th>카메룬</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+
+
+
+                                                         </table>
+                                                            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                                                            <strong id="font"><a name="russia">2018 러시아 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/cc.png"></strong><br><br>
+                                                            <table border="1" class="a">
+                                                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                            <tr id="gold"><th>우승</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>2번째 우승</th></tr>
+                                                            <tr id="sliver"><th>준우승</th><th>크로아티아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>최초 준우승</th></tr>
+                                                            <tr id="bronze"><th>3위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>최초 3위</th></tr>
+                                                            <tr id="four"><th>4위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="blue"><th>5위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="blue"><th>6위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                                                            <tr id="blue"><th>7위</th><th>스웨덴</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="blue"><th>8위</th><th>러시아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>9위</th><th>콜롬비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>10위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>11위</th><th>덴마크</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>12위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>13위</th><th>포르투갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>14위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>15위</th><th>일본</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>16위</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>17위</th><th>세네갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>18위</th><th>이란</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>19위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>20위</th><th>페루</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>21위</th><th>나이지리아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>22위</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/germany.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>23위</th><th>세르비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>24위</th><th>튀니지</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>25위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/22.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>26위</th><th>사우디 아라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>27위</th><th>모로코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>28위</th><th>아이슬란드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>29위</th><th>코스타리카</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>30위</th><th>호주</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>31위</th><th>이집트</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>32위</th><th>파나마</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+
+
+
+                                                             </table>
+
+                                                             <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                                             <strong id="font"><a name="qatar">2022 카타르 월드컵</a> &nbsp;<img src="C:/Users/soldesk/Desktop/flag/cc.png"></strong><br><br>
+                                        <table border="1" class="a">
+
+                                                            <tr><th>순위</th><th>국가</th><th>국기</th><th>비고</th></tr>
+                                                            <tr id="gold"><th>우승</th><th>아르헨티나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th> 우승</th></tr>
+                                                            <tr id="sliver"><th>준우승</th><th>프랑스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>2번째 준우승</th></tr>
+                                                            <tr id="bronze"><th>3위</th><th>크로아티아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="four"><th>4위</th><th>모로코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="blue"><th>5위</th><th>네덜란드</th><td><img src="C:/Users/soldesk/Desktop/flag/tt.png"></td><th>비고</th></tr>
+                                                            <tr id="blue"><th>6위</th><th>잉글랜드</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="blue"><th>7위</th><th>브라질</th><td><img src="C:/Users/soldesk/Desktop/flag/8강딱.png"></td><th>비고</th></tr>
+                                                            <tr id="blue"><th>8위</th><th>포르투갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>9위</th><th>일본</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>10위</th><th>세네갈</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>11위</th><th>호주</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>12위</th><th>스위스</th><td><img src="C:/Users/soldesk/Desktop/flag/qq.jpg"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>13위</th><th>스페인</th><td><img src="C:/Users/soldesk/Desktop/flag/oo.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>14위</th><th>미국</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>15위</th><th>폴란드</th><td><img src="C:/Users/soldesk/Desktop/flag/22.png"></td><th>비고</th></tr>
+                                                            <tr id="yellowgreen"><th>16위</th><th>대한민국</th><td><img src="C:/Users/soldesk/Desktop/flag/korea.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>17위</th><th>독일</th><td><img src="C:/Users/soldesk/Desktop/flag/germany.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>18위</th><th>에콰도르</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>19위</th><th>카메룬</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>20위</th><th>우루과이</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>21위</th><th>튀니지</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>22위</th><th>멕시코</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>23위</th><th>벨기에</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>24위</th><th>가나</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>25위</th><th>사우디아라비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>26위</th><th>이란</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>27위</th><th>코스타리카</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>28위</th><th>덴마크</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>29위</th><th>세르비아</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>30위</th><th>웨일스</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>31위</th><th>캐나다</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>비고</th></tr>
+                                                            <tr id="red"><th>32위</th><th>카타르</th><td><img src="C:/Users/soldesk/Desktop/flag/greek.png"></td><th>본선 첫 진출</th></tr>
+
+
+
+                                                             </table>
+                                                                <br><br><br><br><br><br><br><br><br><br><br><br>
+</center>
+</body>
+
+</html>
+
+===============================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    
+</body>
+</html>
+
+==================================================================================
+
